@@ -116,8 +116,10 @@
     "model_id": "eleven_multilingual_v2",
     "whisper": true,
     "file": "10-lucien.mp3",
-    "duration_s": 4.859,
-    "request_id": "nh7Z94u9O06KPHu6xkoy"
+    "duration_s": 3.004,
+    "request_id": "6vLcTv0qaHyetreFrAxa",
+    "take": 3,
+    "voice_settings_note": "stability 0.45, style 0.45, speed 1.12"
   },
   "11": {
     "speaker": "lucien",
@@ -166,5 +168,18 @@
     "file": "14-elena.mp3",
     "duration_s": 2.403,
     "request_id": "bunpinndtGKhHrSJrA6X"
+  },
+  "10-take1-rejected": {
+    "speaker": "lucien",
+    "shot": 4,
+    "start_s": 37.0,
+    "text": "Three hundred years, Elena.",
+    "voice_id": "VtlAZhCw0BrliEMgCwLB",
+    "model_id": "eleven_multilingual_v2",
+    "whisper": true,
+    "file": "10-lucien-take1-too-slow.mp3",
+    "duration_s": 4.859,
+    "request_id": "nh7Z94u9O06KPHu6xkoy",
+    "rejected": "4.6 s whisper overlaps line 11"
   }
 }

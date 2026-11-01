@@ -1,0 +1,37 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Inter,74,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,80,80,520,1
+Style: Title,Inter Display,124,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,1,0,1,6,3,5,90,90,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.60,Caption,,0,0,0,,THE BOOK HAD
+Dialogue: 0,0:00:00.60,0:00:01.66,Caption,,0,0,0,,MY NAME IN IT.
+Dialogue: 0,0:00:03.00,0:00:04.59,Caption,,0,0,0,,WRITTEN THREE HUNDRED YEARS
+Dialogue: 0,0:00:04.59,0:00:06.05,Caption,,0,0,0,,BEFORE I WAS BORN.
+Dialogue: 0,0:00:07.00,0:00:08.45,Caption,,0,0,0,,AND THE DATE I DIE...
+Dialogue: 0,0:00:08.45,0:00:09.60,Caption,,0,0,0,,IS TONIGHT.
+Dialogue: 0,0:00:13.00,0:00:14.41,Caption,,0,0,0,,YOU WEREN'T SUPPOSED
+Dialogue: 0,0:00:14.41,0:00:15.73,Caption,,0,0,0,,TO FIND THAT.
+Dialogue: 0,0:00:16.00,0:00:17.00,Caption,,0,0,0,,WHO ARE YOU?
+Dialogue: 0,0:00:19.00,0:00:20.38,Caption,,0,0,0,,THE MAN WHO WROTE IT.
+Dialogue: 0,0:00:25.00,0:00:26.67,Caption,,0,0,0,,IT SAYS I DIE TONIGHT.
+Dialogue: 0,0:00:28.00,0:00:29.00,Caption,,0,0,0,,NO.
+Dialogue: 0,0:00:30.00,0:00:33.70,Caption,,0,0,0,,IT SAYS YOU DIE TONIGHT.
+Dialogue: 0,0:00:33.70,0:00:35.80,Caption,,0,0,0,,EVERY TIME.
+Dialogue: 0,0:00:37.00,0:00:40.00,Caption,,0,0,0,,THREE HUNDRED YEARS, ELENA.
+Dialogue: 0,0:00:40.00,0:00:42.06,Caption,,0,0,0,,AND YOU NEVER REMEMBER ME.
+Dialogue: 0,0:00:44.00,0:00:44.60,Caption,,0,0,0,,THEN WHY
+Dialogue: 0,0:00:44.60,0:00:46.01,Caption,,0,0,0,,DO I KNOW YOUR VOICE?
+Dialogue: 0,0:00:50.00,0:00:50.60,Caption,,0,0,0,,HE SAID
+Dialogue: 0,0:00:50.60,0:00:51.98,Caption,,0,0,0,,THE BOOK NEVER LIES.
+Dialogue: 0,0:00:54.00,0:00:54.60,Caption,,0,0,0,,SO WHY DID
+Dialogue: 0,0:00:54.60,0:00:56.38,Caption,,0,0,0,,IT JUST WRITE HIS NAME?
+Dialogue: 0,0:00:00.00,0:00:02.00,Title,,0,0,0,,This book is 300 years old.
+Dialogue: 0,0:00:58.00,0:01:00.00,Title,,0,0,0,,Part 2

@@ -1,0 +1,80 @@
+{
+  "room_candles": {
+    "prompt": "Quiet room tone of a vast old library at night with soft crackling candle flames, gentle distant rain on tall windows, no music",
+    "duration_s": 22,
+    "file": "room_candles.mp3",
+    "request_id": null
+  },
+  "page_turn": {
+    "prompt": "A single brittle old parchment page turning slowly, close up",
+    "duration_s": 2,
+    "file": "page_turn.mp3",
+    "request_id": null
+  },
+  "hum_build": {
+    "prompt": "Low ominous sub-bass drone that slowly rises in intensity and pressure, cinematic tension, no melody",
+    "duration_s": 12,
+    "file": "hum_build.mp3",
+    "request_id": null
+  },
+  "footstep_echo": {
+    "prompt": "One single heavy footstep on an old wooden floor echoing in a large dark hall",
+    "duration_s": 2,
+    "file": "footstep_echo.mp3",
+    "request_id": null
+  },
+  "footsteps_approach": {
+    "prompt": "Slow deliberate men's footsteps on creaking old wooden floorboards, approaching from behind",
+    "duration_s": 8,
+    "file": "footsteps_approach.mp3",
+    "request_id": null
+  },
+  "flame_flicker": {
+    "prompt": "Candle flames fluttering in a sudden draft, soft airy whoosh",
+    "duration_s": 3,
+    "file": "flame_flicker.mp3",
+    "request_id": null
+  },
+  "breath": {
+    "prompt": "A woman's soft nervous breath, close and intimate, a shaky inhale and slow exhale",
+    "duration_s": 4,
+    "file": "breath.mp3",
+    "request_id": null
+  },
+  "leather_creak": {
+    "prompt": "An old leather book cover creaking under a tight nervous grip, close up",
+    "duration_s": 3,
+    "file": "leather_creak.mp3",
+    "request_id": null
+  },
+  "heartbeat": {
+    "prompt": "Slow, quiet, deep human heartbeat, steady, cinematic, no music",
+    "duration_s": 22,
+    "file": "heartbeat.mp3",
+    "request_id": null
+  },
+  "clock_tick": {
+    "prompt": "An old grandfather clock ticking slowly in a silent dark room, steady tick tock",
+    "duration_s": 15,
+    "file": "clock_tick.mp3",
+    "request_id": null
+  },
+  "candle_snuff": {
+    "prompt": "A single candle flame being snuffed out, short soft hiss and puff",
+    "duration_s": 2,
+    "file": "candle_snuff.mp3",
+    "request_id": null
+  },
+  "pages_flip": {
+    "prompt": "Pages of a heavy old book flipping rapidly on their own in a gust, then stopping",
+    "duration_s": 4,
+    "file": "pages_flip.mp3",
+    "request_id": null
+  },
+  "ink_writing": {
+    "prompt": "A quill pen scratching slowly on old parchment, ink writing a line by itself, eerie and close",
+    "duration_s": 5,
+    "file": "ink_writing.mp3",
+    "request_id": null
+  }
+}

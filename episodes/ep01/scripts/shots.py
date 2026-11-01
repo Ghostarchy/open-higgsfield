@@ -87,6 +87,38 @@ SHOTS = {
 }
 
 
+# Shot 5 v2: Kling text-to-video wrote an illegible scrawl and left the candles lit, so it is pinned
+# between a start frame (blank page, candles lit) and an end frame (legible line, candles out).
+SHOT5_START = (f"The antique leather ledger lies open alone on a wooden reading desk in the foreground, "
+               f"both yellowed pages blank, at the end of a dark library aisle lined with a row of lit "
+               f"candles receding into the distance. No people. {GRADE}.")
+SHOT5_END = (f"The same scene, nearly dark: every candle down the aisle is out, thin smoke rising from the "
+             f"wicks, only one dying candle beside the desk still glows. On the right-hand page of the open "
+             f"ledger one fresh line of dark old-fashioned handwritten ink, large and clearly legible, reads "
+             f"exactly \"Lucien \u2014 died 1 November\". Nothing else is written. No people. {GRADE}.")
+SHOT5_MOTION = (f"The candles down the library aisle go out one by one, moving toward the camera, thin smoke "
+                f"rising. The pages of the open ledger flip on their own and stop on a fresh page. Ink bleeds "
+                f"onto the paper and writes a new line by itself in old handwriting. Static camera. No people. "
+                f"{GRADE}.")
+
+
+def shot5_frames():
+    hf.submit(ledger, "shot5-start-frame", "flux-2-pro", {
+        "prompt": SHOT5_START, "aspect_ratio": "9:16", "resolution": "2k"})
+    start = hf.wait(ledger, "shot5-start-frame", out / "shot5-start-frame.png", interval=5)
+    hf.submit(ledger, "shot5-end-frame", "flux-2-pro", {
+        "prompt": SHOT5_END, "aspect_ratio": "9:16", "resolution": "2k", "image_urls": [start]})
+    hf.wait(ledger, "shot5-end-frame", out / "shot5-end-frame.png", interval=5)
+
+
+def shot5_clip():
+    hf.submit(ledger, "shot5-clip-v2", "kling-video/v3.0/pro/image-to-video", {
+        "prompt": SHOT5_MOTION, "sound": "off", "duration": 10, "cfg_scale": 0.5, "multi_shots": False,
+        "image_url": ledger.data["shot5-start-frame"]["url"],
+        "last_image_url": ledger.data["shot5-end-frame"]["url"]})
+    hf.wait(ledger, "shot5-clip-v2", out / "shot5-v2.mp4", interval=15)
+
+
 def frame(n):
     key = f"shot{n}-frame"
     hf.submit(ledger, key, "flux-2-pro", {
@@ -109,6 +141,10 @@ def clip(n):
     hf.wait(ledger, key, out / f"shot{n}.mp4", interval=15)
 
 
+if stage == "shot5-frames":
+    shot5_frames(); sys.exit()
+if stage == "shot5-clip":
+    shot5_clip(); sys.exit()
 job = {"frames": frame, "clips": clip}[stage]
 threads = [threading.Thread(target=job, args=(n,)) for n in which]
 for t in threads:
