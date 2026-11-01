@@ -1,0 +1,150 @@
+{
+  "shot4-frame": {
+    "model": "flux-2-pro",
+    "request": {
+      "prompt": "Close-up. a tall man in his thirties with sharp features and short dark hair, wearing a dark suit, tie pulled loose, top shirt button undone, no pocket square, plain jacket breast pocket, white shirt open at the throat leans in behind a woman in her late twenties with long dark wavy hair, wearing a fitted black button-up blouse with a collar, his lips near her ear, the lower half of his face hidden behind her long dark wavy hair. Her eyes are closed, lips parted slightly. Candlelit library, warm amber light. The woman is the woman in the first reference image; the man is the man in the second. candlelit, warm amber highlights, deep black shadows, slight film grain, cinematic dark romance film, vertical 9:16 frame.",
+      "aspect_ratio": "9:16",
+      "resolution": "2k",
+      "image_urls": [
+        "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19928-d7ff-7e53-beb0-512f9138f0c3/6a6fb376-3786-4541-af67-94c299ec5b62.png",
+        "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19929-928a-77c0-93f6-d0610acb46ec/c816b133-01e7-4507-a13f-c3aea0c3429c.png"
+      ]
+    },
+    "request_id": "01a19932-41c7-7073-94c8-74c2019672ef",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19932-41c7-7073-94c8-74c2019672ef/7d1e657b-6a2c-4d7e-928a-277380a5dfa6.png",
+    "file": "shot4-frame.png"
+  },
+  "shot2-frame": {
+    "model": "flux-2-pro",
+    "request": {
+      "prompt": "Medium shot at eye level, 85mm lens, chest-height camera. a woman in her late twenties with long dark wavy hair, wearing a fitted black button-up blouse with a collar stands in a narrow aisle between towering antique bookshelves, clutching an old leather ledger to her chest, facing camera. Behind her, deeper in the aisle, a tall man in his thirties with sharp features and short dark hair, wearing a dark suit, tie pulled loose, top shirt button undone, no pocket square, plain jacket breast pocket, white shirt open at the throat is stepping out of the shadows, half his face in candlelight, his mouth in shadow. The woman is the woman in the first reference image; the man is the man in the second reference image. candlelit, warm amber highlights, deep black shadows, slight film grain, cinematic dark romance film, vertical 9:16 frame.",
+      "aspect_ratio": "9:16",
+      "resolution": "2k",
+      "image_urls": [
+        "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19928-d7ff-7e53-beb0-512f9138f0c3/6a6fb376-3786-4541-af67-94c299ec5b62.png",
+        "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19929-928a-77c0-93f6-d0610acb46ec/c816b133-01e7-4507-a13f-c3aea0c3429c.png"
+      ]
+    },
+    "request_id": "01a19932-41cf-7d80-8a1a-681c0cc3bc6c",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19932-41cf-7d80-8a1a-681c0cc3bc6c/26304be8-fa13-4d4a-8cfd-3c4749589c98.png",
+    "file": "shot2-frame.png"
+  },
+  "shot1-frame-v1-rejected": {
+    "model": "flux-2-pro",
+    "request": {
+      "prompt": "Extreme close-up looking down at an antique leather ledger with yellowed pages on a wooden desk, faded handwritten brown ink on the page reads \"Elena Marlowe \u2014 died 1 November\". The index finger of a woman in her late twenties with long dark wavy hair, wearing a fitted black button-up blouse with a collar rests on the ink; only her hand and black blouse cuff are visible. A single candle flame at the edge of frame. Use the woman in the reference image. candlelit, warm amber highlights, deep black shadows, slight film grain, cinematic dark romance film, vertical 9:16 frame.",
+      "aspect_ratio": "9:16",
+      "resolution": "2k",
+      "image_urls": [
+        "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19928-d7ff-7e53-beb0-512f9138f0c3/6a6fb376-3786-4541-af67-94c299ec5b62.png"
+      ]
+    },
+    "request_id": "01a19932-4206-7a80-8a2f-83a3f65136f9",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19932-4206-7a80-8a2f-83a3f65136f9/50ab6aa8-e06f-4f54-b4b7-44636adcc26e.png",
+    "file": "shot1-frame-v1-rejected.png",
+    "rejected": "name written twice in the handwriting"
+  },
+  "shot3-frame-v1-rejected": {
+    "model": "flux-2-pro",
+    "request": {
+      "prompt": "Extreme close-up of hands on an antique leather ledger. The hand of a tall man in his thirties in a dark suit sleeve rests just beside the hand of a woman in her late twenties wearing a fitted black blouse sleeve as she grips the ledger. Candlelight, very shallow depth of field. Sleeves match the people in the reference images. candlelit, warm amber highlights, deep black shadows, slight film grain, cinematic dark romance film, vertical 9:16 frame.",
+      "aspect_ratio": "9:16",
+      "resolution": "2k",
+      "image_urls": [
+        "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19928-d7ff-7e53-beb0-512f9138f0c3/6a6fb376-3786-4541-af67-94c299ec5b62.png",
+        "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19929-928a-77c0-93f6-d0610acb46ec/c816b133-01e7-4507-a13f-c3aea0c3429c.png"
+      ]
+    },
+    "request_id": "01a19932-41c3-7eb7-8650-bffc5b515cf2",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19932-41c3-7eb7-8650-bffc5b515cf2/6b4cc05b-e5ec-470d-934d-5c7da958767d.png",
+    "file": "shot3-frame-v1-rejected.png",
+    "rejected": "man's hand reads as elderly"
+  },
+  "shot4-clip": {
+    "model": "kling-video/v3.0/pro/image-to-video",
+    "request": {
+      "prompt": "Close-up. a tall man in his thirties with sharp features and short dark hair, wearing a dark suit, tie pulled loose, top shirt button undone, no pocket square, plain jacket breast pocket, white shirt open at the throat leans in behind a woman in her late twenties with long dark wavy hair, wearing a fitted black button-up blouse with a collar, his lips near her ear, his mouth hidden behind her hair. Her eyes stay closed and her breath catches. Very slow push in on her face. Candlelit library, warm amber light, cinematic dark romance. No one speaks; lips stay closed. candlelit, warm amber highlights, deep black shadows, slight film grain, cinematic dark romance film, vertical 9:16 frame.",
+      "sound": "off",
+      "duration": 12,
+      "cfg_scale": 0.5,
+      "multi_shots": false,
+      "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19932-41c7-7073-94c8-74c2019672ef/7d1e657b-6a2c-4d7e-928a-277380a5dfa6.png"
+    },
+    "request_id": "01a19933-415b-71c1-84a4-ac573db62781",
+    "status": "queued"
+  },
+  "shot2-clip": {
+    "model": "kling-video/v3.0/pro/image-to-video",
+    "request": {
+      "prompt": "Medium shot, eye level, 85mm. a woman in her late twenties with long dark wavy hair, wearing a fitted black button-up blouse with a collar clutches the leather ledger to her chest. Behind her, a tall man in his thirties with sharp features and short dark hair, wearing a dark suit, tie pulled loose, top shirt button undone, no pocket square, plain jacket breast pocket, white shirt open at the throat steps slowly out of the shadows toward her, half his face in candlelight; candle flames flicker as he passes. She turns around to face him, her face turning away from camera. No one speaks; lips stay closed. candlelit, warm amber highlights, deep black shadows, slight film grain, cinematic dark romance film, vertical 9:16 frame.",
+      "sound": "off",
+      "duration": 12,
+      "cfg_scale": 0.5,
+      "multi_shots": false,
+      "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19932-41cf-7d80-8a1a-681c0cc3bc6c/26304be8-fa13-4d4a-8cfd-3c4749589c98.png"
+    },
+    "request_id": "01a19933-4170-76a5-8ce1-504d784454fb",
+    "status": "queued"
+  },
+  "shot3-frame": {
+    "model": "flux-2-pro",
+    "request": {
+      "prompt": "Extreme close-up of hands on an antique leather ledger. The smooth, youthful hand of a tall man in his thirties in a dark suit sleeve hovers just above and beside the slender hand of a woman in her late twenties wearing a fitted black blouse sleeve as she grips the ledger. Candlelight, very shallow depth of field. Sleeves match the people in the reference images. candlelit, warm amber highlights, deep black shadows, slight film grain, cinematic dark romance film, vertical 9:16 frame.",
+      "aspect_ratio": "9:16",
+      "resolution": "2k",
+      "image_urls": [
+        "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19928-d7ff-7e53-beb0-512f9138f0c3/6a6fb376-3786-4541-af67-94c299ec5b62.png",
+        "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19929-928a-77c0-93f6-d0610acb46ec/c816b133-01e7-4507-a13f-c3aea0c3429c.png"
+      ]
+    },
+    "request_id": "01a19933-4179-70cc-8905-08491fdd910d",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19933-4179-70cc-8905-08491fdd910d/7ff83a4d-0838-431f-b83b-5498cd8c5150.png",
+    "file": "shot3-frame.png"
+  },
+  "shot1-frame": {
+    "model": "flux-2-pro",
+    "request": {
+      "prompt": "Extreme close-up looking down at an antique leather ledger with yellowed pages on a wooden desk, faded handwritten brown ink on the page reads \"Elena Marlowe \u2014 died 1 November\". The index finger of a woman in her late twenties with long dark wavy hair, wearing a fitted black button-up blouse with a collar rests on the ink; only her hand and black blouse cuff are visible. A single candle flame at the edge of frame. Use the woman in the reference image. candlelit, warm amber highlights, deep black shadows, slight film grain, cinematic dark romance film, vertical 9:16 frame.",
+      "aspect_ratio": "9:16",
+      "resolution": "2k",
+      "image_urls": [
+        "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19928-d7ff-7e53-beb0-512f9138f0c3/6a6fb376-3786-4541-af67-94c299ec5b62.png"
+      ]
+    },
+    "request_id": "01a19933-418d-7f24-a4be-5816ad9f8c61",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19933-418d-7f24-a4be-5816ad9f8c61/1a833a1e-680c-4ce3-a376-9c23376b9d70.png",
+    "file": "shot1-frame.png"
+  },
+  "shot3-clip": {
+    "model": "kling-video/v3.0/pro/image-to-video",
+    "request": {
+      "prompt": "Extreme close-up, the hand of a tall man in his thirties in a dark suit sleeve slowly slides over the hand of a woman in her late twenties wearing a fitted black blouse sleeve as she holds the antique leather ledger. Candlelight, shallow depth of field, intimate tension, slow motion. candlelit, warm amber highlights, deep black shadows, slight film grain, cinematic dark romance film, vertical 9:16 frame.",
+      "sound": "off",
+      "duration": 12,
+      "cfg_scale": 0.5,
+      "multi_shots": false,
+      "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19933-4179-70cc-8905-08491fdd910d/7ff83a4d-0838-431f-b83b-5498cd8c5150.png"
+    },
+    "request_id": "01a19933-f8ff-7b74-962d-e7fa7545cb12",
+    "status": "queued"
+  },
+  "shot1-clip": {
+    "model": "kling-video/v3.0/pro/image-to-video",
+    "request": {
+      "prompt": "Extreme close-up, candlelight. The finger of a woman in her late twenties with long dark wavy hair, wearing a fitted black button-up blouse with a collar slowly traces the faded handwritten ink on the yellowed ledger page and trembles. Slow push in. Near the end the camera tilts up to her face as she looks up sharply, eyes wide, face lit from below by the candle. No one speaks; lips stay closed. candlelit, warm amber highlights, deep black shadows, slight film grain, cinematic dark romance film, vertical 9:16 frame.",
+      "sound": "off",
+      "duration": 12,
+      "cfg_scale": 0.5,
+      "multi_shots": false,
+      "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19933-418d-7f24-a4be-5816ad9f8c61/1a833a1e-680c-4ce3-a376-9c23376b9d70.png"
+    },
+    "request_id": "01a19933-f90b-7118-8ead-8d56b2591cd0",
+    "status": "queued"
+  }
+}

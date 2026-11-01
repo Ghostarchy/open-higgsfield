@@ -1,5 +1,5 @@
 """Tiny Higgsfield platform client: submit, record the request ID immediately, poll, download."""
-import json, os, time, pathlib, requests
+import fcntl, json, os, time, pathlib, requests
 
 BASE = os.environ["HF_API_BASE_URL"].rstrip("/")
 AUTH = {"Authorization": f"Key {os.environ['OPEN_HIGGSFIELD_API_KEY']}"}
@@ -14,8 +14,13 @@ class Ledger:
         self.data = json.loads(self.path.read_text()) if self.path.exists() else {}
 
     def set(self, key, **fields):
-        self.data.setdefault(key, {}).update(fields)
-        self.path.write_text(json.dumps(self.data, indent=2))
+        # Several runs can share one manifest: re-read under a lock and merge, never overwrite.
+        with open(self.path.with_suffix(".lock"), "w") as lock:
+            fcntl.flock(lock, fcntl.LOCK_EX)
+            if self.path.exists():
+                self.data = json.loads(self.path.read_text())
+            self.data.setdefault(key, {}).update(fields)
+            self.path.write_text(json.dumps(self.data, indent=2))
         return self.data[key]
 
 
