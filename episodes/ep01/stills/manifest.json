@@ -1,0 +1,45 @@
+{
+  "elena": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Character reference portrait of a woman in her late twenties with long dark wavy hair, wearing a fitted black button-up blouse with a collar, standing in a candlelit antique library at night, towering dark bookshelves behind, warm amber candlelight on the face, deep black shadows, slight film grain, cinematic dark romance film still, waist-up portrait, looking toward camera, face clearly visible and sharp.",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19928-d7ff-7e53-beb0-512f9138f0c3",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19928-d7ff-7e53-beb0-512f9138f0c3/6a6fb376-3786-4541-af67-94c299ec5b62.png",
+    "file": "elena-ref.png"
+  },
+  "lucien": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Character reference portrait of a tall man in his thirties with sharp features and short dark hair, wearing a dark suit, tie pulled loose, top shirt button undone, no pocket square, standing in a candlelit antique library at night, towering dark bookshelves behind, warm amber candlelight on the face, deep black shadows, slight film grain, cinematic dark romance film still, waist-up portrait, looking toward camera, face clearly visible and sharp.",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19928-d9f6-7ca9-86d3-ba0f15b55d74",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19928-d9f6-7ca9-86d3-ba0f15b55d74/644f0939-cb15-4884-bddd-2e2bcc2fc62f.png",
+    "file": "lucien-ref-v1-rejected.png",
+    "rejected": "pocket square; old film-stock grade"
+  },
+  "lucien-v2": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Character reference portrait of a tall man in his thirties with sharp features and short dark hair, wearing a dark suit, tie pulled loose, top shirt button undone, no pocket square, plain jacket breast pocket, white shirt open at the throat, standing in a candlelit antique library at night, towering dark bookshelves behind, warm amber candlelight on the face, deep black shadows, slight film grain, cinematic dark romance film still, waist-up portrait, looking toward camera, face clearly visible and sharp, modern digital cinema look, same warm amber grade as a contemporary period drama.",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19929-928a-77c0-93f6-d0610acb46ec",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19929-928a-77c0-93f6-d0610acb46ec/c816b133-01e7-4507-a13f-c3aea0c3429c.png",
+    "file": "lucien-v2-ref.png"
+  }
+}
