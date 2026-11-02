@@ -550,5 +550,22 @@
     "status": "completed",
     "url": "https://cloud-cdn.higgsfield.ai/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19dd4-acf9-7cf3-ab1c-531ae4366121/19cdae87-f6eb-4d04-8f88-d4634ede8468.mp4",
     "file": "shot11b-lipsync.mp4"
+  },
+  "test-seedance-lipsync-shot07": {
+    "model": "bytedance/seedance-2.0/image-to-video",
+    "request": {
+      "prompt": "The chieftain kneels in the snow, cups the little girl's face in both hands and speaks to her quietly and urgently, lips moving clearly in sync with the dialogue audio, eyes wet with fear; snow falling, torchlight flickering, slow push in. Photorealistic live-action fantasy film.",
+      "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b68-30e9-7e0b-835d-a9c3f4f8147e/17f777ed-72ba-479e-a78d-2d4fff4c9b38.png",
+      "audio_urls": [
+        "https://raw.githubusercontent.com/Ghostarchy/open-higgsfield/claude/fervent-johnson-ls3c84/ice-wolves/ep01/audio/lipsync/shot07-asha.wav"
+      ],
+      "duration": 5,
+      "resolution": "1080p",
+      "generate_audio": false
+    },
+    "request_id": "01a19de4-2fd3-74a3-ab19-e150091824f2",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19de4-2fd3-74a3-ab19-e150091824f2/da967d3c-9acf-49c3-8b53-26dc147fc5f0.mp4",
+    "file": "test-seedance-shot07.mp4"
   }
 }

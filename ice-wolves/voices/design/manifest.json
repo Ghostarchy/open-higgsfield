@@ -40,5 +40,47 @@
         "generated_voice_id": "0nH4O4Rik09xtoPVaFTP"
       }
     ]
+  },
+  "sigrun": {
+    "voice_description": "A young woman of nineteen with a strong, clear, proud voice, a fierce shieldmaiden, bold and confident with a hint of arrogance, slight Nordic accent, clean studio recording.",
+    "text": "Kneel, old wolf. Your rider is here. I have trained for this every day of my life, and today the whole clan will watch you bow to me.",
+    "previews": [
+      {
+        "option": 1,
+        "file": "sigrun-option1.mp3",
+        "generated_voice_id": "sXwLOE3FhYjl0b5VsVQK"
+      },
+      {
+        "option": 2,
+        "file": "sigrun-option2.mp3",
+        "generated_voice_id": "PqzFjKcEQBqdqDq7AOVm"
+      },
+      {
+        "option": 3,
+        "file": "sigrun-option3.mp3",
+        "generated_voice_id": "k1dRQOuKt6WOOQb0QIlw"
+      }
+    ]
+  },
+  "grima": {
+    "voice_description": "A very old woman in her eighties with a thin, cracked, rasping voice, a frightened seer whispering a terrible secret, slow and trembling, slight Nordic accent, clean studio recording.",
+    "text": "That scar. He got it the night we found her. I was there. I saw the sky burn, and I have kept silent for four long winters.",
+    "previews": [
+      {
+        "option": 1,
+        "file": "grima-option1.mp3",
+        "generated_voice_id": "GZoP2bq7kkL00XoFFWEd"
+      },
+      {
+        "option": 2,
+        "file": "grima-option2.mp3",
+        "generated_voice_id": "QdIO0RQmhxioKRuwv3Uw"
+      },
+      {
+        "option": 3,
+        "file": "grima-option3.mp3",
+        "generated_voice_id": "JAGX5n26ex0M6BX10dMX"
+      }
+    ]
   }
 }

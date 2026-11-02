@@ -1,0 +1,107 @@
+{
+  "01": {
+    "speaker": "narrator",
+    "start_s": 0.5,
+    "text": "Once in a hundred years, the ancient wolf chooses a rider.",
+    "voice_id": "1kd7lCNvwHJLgPjpsgtN",
+    "voice_settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.85,
+      "style": 0.4,
+      "use_speaker_boost": true,
+      "speed": 0.9
+    },
+    "file": "01-narrator.mp3",
+    "duration_s": 3.762,
+    "request_id": "hMhzCAhcOSaDH73PRcel"
+  },
+  "02": {
+    "speaker": "narrator",
+    "start_s": 4.5,
+    "text": "For a hundred years, it has chosen no one.",
+    "voice_id": "1kd7lCNvwHJLgPjpsgtN",
+    "voice_settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.85,
+      "style": 0.4,
+      "use_speaker_boost": true,
+      "speed": 0.9
+    },
+    "file": "02-narrator.mp3",
+    "duration_s": 3.161,
+    "request_id": "CqLdaTM8vxAe5e0gXg2o"
+  },
+  "04": {
+    "speaker": "narrator",
+    "start_s": 25.5,
+    "text": "No one noticed the smallest one. No one ever did.",
+    "voice_id": "1kd7lCNvwHJLgPjpsgtN",
+    "voice_settings": {
+      "stability": 0.6,
+      "similarity_boost": 0.85,
+      "style": 0.35,
+      "use_speaker_boost": true,
+      "speed": 0.9
+    },
+    "file": "04-narrator.mp3",
+    "duration_s": 3.657,
+    "request_id": "NPrm1qsYGeiTnsdfEax9"
+  },
+  "05": {
+    "speaker": "asha",
+    "start_s": 32.0,
+    "text": "Mira. Little star. Stay with me. Please.",
+    "voice_id": "E1OMjCzrMPBUYkU9FW1T",
+    "voice_settings": {
+      "stability": 0.35,
+      "similarity_boost": 0.8,
+      "style": 0.65,
+      "use_speaker_boost": false
+    },
+    "file": "05-asha.mp3",
+    "duration_s": 5.329,
+    "request_id": "gSR70xewnvRYNvO3C7aQ",
+    "lipsync_track": {
+      "file": "../shots/shot07.wav",
+      "line_in_shot_s": 0.5,
+      "line_s": 4.02,
+      "episode_start_s": 31.5
+    }
+  },
+  "06": {
+    "speaker": "asha",
+    "start_s": 37.5,
+    "text": "Mira!",
+    "voice_id": "E1OMjCzrMPBUYkU9FW1T",
+    "voice_settings": {
+      "stability": 0.25,
+      "similarity_boost": 0.8,
+      "style": 0.8,
+      "use_speaker_boost": true
+    },
+    "file": "06-asha.mp3",
+    "duration_s": 2.038,
+    "request_id": "96ZjIXmw7BcA57BvkKWa"
+  },
+  "07": {
+    "speaker": "asha",
+    "start_s": 69.5,
+    "text": "He bowed. To my little girl.",
+    "voice_id": "E1OMjCzrMPBUYkU9FW1T",
+    "voice_settings": {
+      "stability": 0.3,
+      "similarity_boost": 0.8,
+      "style": 0.7,
+      "use_speaker_boost": false
+    },
+    "file": "07-asha.mp3",
+    "duration_s": 2.821,
+    "request_id": "rINJYVziaqAzxc4SoYCd",
+    "lipsync_track": {
+      "file": "../shots/shot13.wav",
+      "line_in_shot_s": 0.5,
+      "line_s": 2.39,
+      "episode_start_s": 69.5
+    }
+  }
+}

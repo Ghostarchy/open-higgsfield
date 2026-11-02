@@ -8,23 +8,24 @@ import base64, json, os, sys, pathlib, requests
 root = pathlib.Path(sys.argv[1])
 H = {"xi-api-key": os.environ["ELEVENLABS_API_KEY"]}
 
+# Child voices are never designed here: ElevenLabs blocks them, and Mira is silent by design.
 VOICES = {
+    "sigrun": ("A young woman of nineteen with a strong, clear, proud voice, a fierce shieldmaiden, bold "
+               "and confident with a hint of arrogance, slight Nordic accent, clean studio recording.",
+               "Kneel, old wolf. Your rider is here. I have trained for this every day of my life, and today "
+               "the whole clan will watch you bow to me."),
+    "grima": ("A very old woman in her eighties with a thin, cracked, rasping voice, a frightened seer "
+              "whispering a terrible secret, slow and trembling, slight Nordic accent, clean studio recording.",
+              "That scar. He got it the night we found her. I was there. I saw the sky burn, and I have kept "
+              "silent for four long winters."),
     "narrator": ("A deep, slow, epic movie-trailer narrator, a man with a resonant low bass voice, "
                  "gravelly and commanding, measured dramatic pacing, clean studio recording.",
                  "Every child in the clan faced the beast. Every child was rejected. For three hundred "
                  "years the ancient wolf bowed to no one, and the mountain waited in silence."),
-    "kaelen": ("A cocky, bratty boy around nine years old with a bright, clear young voice, smug and "
-               "teasing, spoiled chieftain's son, clean studio recording.",
-               "Watch how a chieftain's son does it. Move aside, all of you. That old wolf is going to "
-               "bow to me, just like everyone else does."),
     "asha": ("A woman in her forties with a low, husky, commanding voice, a hardened warrior chieftain, "
              "urgent and protective, Nordic-inflected English accent, clean studio recording.",
              "Not you, child. It will tear you apart. Stay behind me. Vorr hasn't bowed in three "
              "hundred years, and it will not bow today."),
-    "mira": ("A soft, calm little girl around seven years old with a gentle, quiet, clear voice, "
-             "completely unafraid, tender and wise beyond her years, clean studio recording.",
-             "I can't see you. But I can hear you're lonely. It's all right. I'm not afraid of you. "
-             "I've been listening for you for a very long time."),
 }
 
 SFX = {

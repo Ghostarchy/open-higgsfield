@@ -54,5 +54,118 @@
     "status": "completed",
     "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b66-8271-7e59-b9ea-ce57009295e8/c1517959-bb12-4277-baea-ab0c7852b66d.png",
     "file": "asha.png"
+  },
+  "mira4-v1-rejected": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Character reference, full body, front view, standing alone in deep snow outside a stone hall at dawn, face clearly visible, eyes open and unfocused, no face paint. MIRA: a 4-year-old toddler girl with realistic toddler proportions (large head, round cheeks, small button nose, short chubby limbs), fair skin flushed pink from the cold, pale silver-blonde hair in two short messy braids tied with red yarn, cloudy milky pale-blue eyes that never quite focus, a tiny pale scar on her chin, an oversized hooded grey wolf-fur cloak that drags in the snow, a cream undyed wool tunic, small fur-wrapped leather boots bound with cord, clutching a palm-sized carved pale wooden wolf toy with a V-shaped notch in its left ear. Ultra-photorealistic live-action cinematic dark fantasy, Hollywood blockbuster production quality, realistic human anatomy, highly detailed creature anatomy, natural facial expressions, physically accurate movement, realistic environmental interactions, dramatic cinematic lighting, atmospheric fog, volumetric lighting, shallow depth of field, realistic skin and textures, film-quality color grading, subtle film grain, 9:16 vertical composition.",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19de7-a2ee-7cda-a4c6-338b537217a8",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19de7-a2ee-7cda-a4c6-338b537217a8/a9775185-7f55-4a56-8ccb-b43edcdafe51.png",
+    "file": "mira4-v1-rejected.png"
+  },
+  "sigrun-v1-rejected": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Character reference, full body, front view, standing in a snowy stone arena, confident, face clearly visible. SIGRUN: Asha's 19-year-old daughter, tall and lean, freckled fair skin, fierce green eyes, long copper-red hair shaved on the left side with one thick braid, fitted dark leather armor with bronze rings and a white fox-fur collar, a short recurve bow on her back and a curved sword at her hip. Ultra-photorealistic live-action cinematic dark fantasy, Hollywood blockbuster production quality, realistic human anatomy, highly detailed creature anatomy, natural facial expressions, physically accurate movement, realistic environmental interactions, dramatic cinematic lighting, atmospheric fog, volumetric lighting, shallow depth of field, realistic skin and textures, film-quality color grading, subtle film grain, 9:16 vertical composition.",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19de7-a336-7258-8136-6b8e9bafb5e1",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19de7-a336-7258-8136-6b8e9bafb5e1/f9711813-461f-4286-9fd3-5d2207b10fcf.png",
+    "file": "sigrun-v1-rejected.png"
+  },
+  "grima-v1-rejected": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Character reference, full body, front view, standing in falling snow beside a stone wall, face clearly visible. GRIMA: the clan seer, a tiny ancient woman in her 80s, deeply lined pale skin, one clouded white eye and one sharp grey eye, white hair to her waist, blue dotted rune tattoos across her forehead and chin, layered robes of white fur and black raven feathers, leaning on a staff topped with a wolf skull. Ultra-photorealistic live-action cinematic dark fantasy, Hollywood blockbuster production quality, realistic human anatomy, highly detailed creature anatomy, natural facial expressions, physically accurate movement, realistic environmental interactions, dramatic cinematic lighting, atmospheric fog, volumetric lighting, shallow depth of field, realistic skin and textures, film-quality color grading, subtle film grain, 9:16 vertical composition.",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19de7-a324-707f-9b90-63c89598e099",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19de7-a324-707f-9b90-63c89598e099/58334a00-2e3c-4d03-90dd-a0dd6f83271a.png",
+    "file": "grima-v1-rejected.png"
+  },
+  "toy-v1-rejected": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Prop reference, macro close-up product shot of a palm-sized hand-carved pale wooden wolf toy, sitting wolf pose, simple rounded carving with visible knife marks, a clear V-shaped notch cut into its LEFT ear, the right ear whole, resting on grey wolf fur in soft daylight, shallow depth of field, photorealistic. Ultra-photorealistic live-action cinematic dark fantasy, Hollywood blockbuster production quality, realistic human anatomy, highly detailed creature anatomy, natural facial expressions, physically accurate movement, realistic environmental interactions, dramatic cinematic lighting, atmospheric fog, volumetric lighting, shallow depth of field, realistic skin and textures, film-quality color grading, subtle film grain, 9:16 vertical composition.",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "1:1",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19de7-a2f5-76ae-a6e2-a43b6704cf22",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19de7-a2f5-76ae-a6e2-a43b6704cf22/ec587a64-497b-4463-85b5-988b3f03da12.png",
+    "file": "toy-v1-rejected.png"
+  },
+  "toy": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Prop reference, close-up three-quarter view of a palm-sized hand-carved pale birch-wood figurine of a sitting wolf, unmistakably a wolf: long pointed snout, two tall upright pointed ears, carved eyes, a bushy tail curled around its paws, visible knife marks. Its left ear has a clear V-shaped notch cut out of the tip; the right ear is whole. Resting on grey wolf fur in soft daylight, shallow depth of field, photorealistic. Ultra-photorealistic live-action cinematic dark fantasy, Hollywood blockbuster production quality, realistic human anatomy, highly detailed creature anatomy, natural facial expressions, physically accurate movement, realistic environmental interactions, dramatic cinematic lighting, atmospheric fog, volumetric lighting, shallow depth of field, realistic skin and textures, film-quality color grading, subtle film grain, 9:16 vertical composition.",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "1:1",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19de8-bb1c-728d-a48a-2ba6081ec524",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19de8-bb1c-728d-a48a-2ba6081ec524/019be0e7-c142-4811-a6c1-30d2bd4b1036.png",
+    "file": "toy.png",
+    "rejected": "reads as a fox/bird, not a wolf; Mira's reference carries the toy instead"
+  },
+  "sigrun": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Character reference, three-quarter view showing the left side of her head, which is shaved close to the scalp, the rest of her copper-red hair swept to the right into one thick braid, standing in a snowy stone arena, confident, face clearly visible. SIGRUN: Asha's 19-year-old daughter, tall and lean, freckled fair skin, fierce green eyes, long copper-red hair shaved on the left side with one thick braid, fitted dark leather armor with bronze rings and a white fox-fur collar, a short recurve bow on her back and a curved sword at her hip. Ultra-photorealistic live-action cinematic dark fantasy, Hollywood blockbuster production quality, realistic human anatomy, highly detailed creature anatomy, natural facial expressions, physically accurate movement, realistic environmental interactions, dramatic cinematic lighting, atmospheric fog, volumetric lighting, shallow depth of field, realistic skin and textures, film-quality color grading, subtle film grain, 9:16 vertical composition.",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19de8-bb1b-7082-a0e2-abc07b6b3f16",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19de8-bb1b-7082-a0e2-abc07b6b3f16/3b2dacfa-388a-448c-a6f3-bf4ba65bb4ac.png",
+    "file": "sigrun.png"
+  },
+  "grima": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Character reference, waist-up, front view, face clearly visible: her LEFT eye is clouded milky white and her RIGHT eye is a sharp clear grey, rows of small blue dot tattoos across her forehead and down her chin, a grave and wise expression, real elderly woman, standing in falling snow beside a stone wall. GRIMA: the clan seer, a tiny ancient woman in her 80s, deeply lined pale skin, one clouded white eye and one sharp grey eye, white hair to her waist, blue dotted rune tattoos across her forehead and chin, layered robes of white fur and black raven feathers, leaning on a staff topped with a wolf skull. Ultra-photorealistic live-action cinematic dark fantasy, Hollywood blockbuster production quality, realistic human anatomy, highly detailed creature anatomy, natural facial expressions, physically accurate movement, realistic environmental interactions, dramatic cinematic lighting, atmospheric fog, volumetric lighting, shallow depth of field, realistic skin and textures, film-quality color grading, subtle film grain, 9:16 vertical composition.",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19de8-bb58-731e-82de-a3290b17f157",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19de8-bb58-731e-82de-a3290b17f157/2252bc6f-2dde-447e-bd1a-7151fba29232.png",
+    "file": "grima.png"
+  },
+  "mira4": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Character reference, full body, front view, a real four-year-old preschool girl (not a baby, natural healthy child proportions, slender), gentle sweet sad expression, soft unfocused gaze, thick grey wool leggings under the tunic, standing alone in deep snow outside a stone hall at dawn, face clearly visible, no face paint. MIRA: a 4-year-old toddler girl with realistic toddler proportions (large head, round cheeks, small button nose, short chubby limbs), fair skin flushed pink from the cold, pale silver-blonde hair in two short messy braids tied with red yarn, cloudy milky pale-blue eyes that never quite focus, a tiny pale scar on her chin, an oversized hooded grey wolf-fur cloak that drags in the snow, a cream undyed wool tunic, small fur-wrapped leather boots bound with cord, clutching a palm-sized carved pale wooden wolf toy with a V-shaped notch in its left ear. Ultra-photorealistic live-action cinematic dark fantasy, Hollywood blockbuster production quality, realistic human anatomy, highly detailed creature anatomy, natural facial expressions, physically accurate movement, realistic environmental interactions, dramatic cinematic lighting, atmospheric fog, volumetric lighting, shallow depth of field, realistic skin and textures, film-quality color grading, subtle film grain, 9:16 vertical composition.",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19de8-bc06-7f14-92ef-d5d1a3a5b7e1",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19de8-bc06-7f14-92ef-d5d1a3a5b7e1/0ff4895a-0b3f-453b-81e0-f71c707e4bf2.png",
+    "file": "mira4.png"
   }
 }

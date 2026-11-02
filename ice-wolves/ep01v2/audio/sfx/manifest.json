@@ -1,0 +1,62 @@
+{
+  "eye_blink": {
+    "prompt": "Deep sub-bass swell then a heavy wet blink of a giant creature's eye, close",
+    "duration_s": 3,
+    "file": "eye_blink.mp3",
+    "request_id": null
+  },
+  "war_drum_slow": {
+    "prompt": "Slow single war drum hits, one per second, huge and echoing in a stone arena",
+    "duration_s": 12,
+    "file": "war_drum_slow.mp3",
+    "request_id": null
+  },
+  "chant_sigrun": {
+    "prompt": "Hundreds of women chanting a two-syllable name in rhythm, SIG-RUN, SIG-RUN, in a stone arena",
+    "duration_s": 5,
+    "file": "chant_sigrun.mp3",
+    "request_id": null
+  },
+  "sword_clatter": {
+    "prompt": "A steel sword clattering and sliding across icy stone",
+    "duration_s": 2,
+    "file": "sword_clatter.mp3",
+    "request_id": null
+  },
+  "toddler_steps": {
+    "prompt": "Tiny light footsteps of a small child crunching slowly through snow, close",
+    "duration_s": 6,
+    "file": "toddler_steps.mp3",
+    "request_id": null
+  },
+  "bowstrings": {
+    "prompt": "A line of archers drawing longbows, wood and bowstrings creaking under tension",
+    "duration_s": 4,
+    "file": "bowstrings.mp3",
+    "request_id": null
+  },
+  "chains_snap": {
+    "prompt": "Massive iron chains snapping one after another, deep metallic cracks and echoes",
+    "duration_s": 4,
+    "file": "chains_snap.mp3",
+    "request_id": null
+  },
+  "whoosh_hit": {
+    "prompt": "Cinematic transition whoosh into a deep impact boom",
+    "duration_s": 2,
+    "file": "whoosh_hit.mp3",
+    "request_id": null
+  },
+  "shimmer_rise": {
+    "prompt": "Magical ice crystal shimmer rising quickly to a bright peak",
+    "duration_s": 4,
+    "file": "shimmer_rise.mp3",
+    "request_id": null
+  },
+  "armor_kneel": {
+    "prompt": "Rows of warriors kneeling one after another, leather creaking, mail and furs rustling",
+    "duration_s": 5,
+    "file": "armor_kneel.mp3",
+    "request_id": null
+  }
+}
