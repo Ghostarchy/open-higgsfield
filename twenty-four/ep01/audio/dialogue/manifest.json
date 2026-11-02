@@ -142,5 +142,21 @@
     "file": "12-brian.mp3",
     "duration_s": 1.85,
     "request_id": "fjOdZVd999Pc9H8SY3uY"
+  },
+  "13": {
+    "speaker": "teo",
+    "start_s": 74.0,
+    "on_camera": false,
+    "text": "Declan... I can't see the line.",
+    "voice_id": "Za7XjFFMhsQcPLrde8h5",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.85,
+      "style": 0.35,
+      "use_speaker_boost": true
+    },
+    "file": "13-teo.mp3",
+    "duration_s": 3.16,
+    "request_id": "GsHYWn9ZtES7jXznc3O9"
   }
 }

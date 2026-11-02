@@ -62,5 +62,37 @@
     "file": "06-brian.mp3",
     "duration_s": 1.49,
     "request_id": "7CdbPK5nbfh9TuABktKC"
+  },
+  "05": {
+    "speaker": "teo",
+    "start_s": 30.6,
+    "on_camera": false,
+    "text": "There won't be a seventh.",
+    "voice_id": "Za7XjFFMhsQcPLrde8h5",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.85,
+      "style": 0.35,
+      "use_speaker_boost": true
+    },
+    "file": "05-teo.mp3",
+    "duration_s": 1.62,
+    "request_id": "U0MrnOtzPXF7TRz4ARmW"
+  },
+  "07": {
+    "speaker": "teo",
+    "start_s": 47.4,
+    "on_camera": false,
+    "text": "I've been half blind since spring.",
+    "voice_id": "Za7XjFFMhsQcPLrde8h5",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.85,
+      "style": 0.35,
+      "use_speaker_boost": true
+    },
+    "file": "07-teo.mp3",
+    "duration_s": 1.99,
+    "request_id": "n5tvVEKHth69LpHJpKCf"
   }
 }

@@ -3,5 +3,15 @@
     "voice_id": "0gY5g5SGyPxMuhUzzNxa",
     "from_design_option": 2,
     "generated_voice_id": "0gY5g5SGyPxMuhUzzNxa"
+  },
+  "teo": {
+    "voice_id": "Za7XjFFMhsQcPLrde8h5",
+    "from_design_option": 1,
+    "generated_voice_id": "Za7XjFFMhsQcPLrde8h5"
+  },
+  "isla": {
+    "voice_id": "nRrBXmtSFSKpEMXs3fMU",
+    "from_design_option": 2,
+    "generated_voice_id": "nRrBXmtSFSKpEMXs3fMU"
   }
 }

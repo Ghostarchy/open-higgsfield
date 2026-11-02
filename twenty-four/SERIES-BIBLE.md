@@ -520,7 +520,7 @@ Low angle through the rain-streaked windscreen: headlights of a black car slowly
 | Time | Who | Line | Lip sync |
 |---|---|---|---|
 | 8.4 s | ISLA | "Where is he, Declan?" | Seedance (on camera) |
-| 32.4 s | ISLA | "You hid it from everyone. Even from me." | Seedance (on camera) |
+| 32.1 s | ISLA | "You hid it from everyone. Even from me." | Seedance (on camera) |
 | 36.4 s | TEO | "Especially from you." | Seedance (on camera) |
 | 40.4 s | ISLA | "You beat me half blind!" | Seedance (on camera) |
 | 44.4 s | TEO | "With one good eye." | Seedance (on camera) |

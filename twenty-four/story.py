@@ -349,7 +349,7 @@ SHOTS3 = {
 
 DIALOGUE3 = [
     (8.4, "ISLA", "Where is he, Declan?", True),
-    (32.4, "ISLA", "You hid it from everyone. Even from me.", True),
+    (32.1, "ISLA", "You hid it from everyone. Even from me.", True),
     (36.4, "TEO", "Especially from you.", True),
     (40.4, "ISLA", "You beat me half blind!", True),
     (44.4, "TEO", "With one good eye.", True),

@@ -1,0 +1,114 @@
+{
+  "01": {
+    "speaker": "isla",
+    "start_s": 8.4,
+    "on_camera": true,
+    "text": "Where is he, Declan?",
+    "voice_id": "nRrBXmtSFSKpEMXs3fMU",
+    "voice_settings": {
+      "stability": 0.3,
+      "similarity_boost": 0.85,
+      "style": 0.7,
+      "use_speaker_boost": true
+    },
+    "file": "01-isla.mp3",
+    "duration_s": 1.91,
+    "request_id": "DFunab8M9QYEJtSUvsiK"
+  },
+  "02": {
+    "speaker": "isla",
+    "start_s": 32.1,
+    "on_camera": true,
+    "text": "You hid it from everyone. Even from me.",
+    "voice_id": "nRrBXmtSFSKpEMXs3fMU",
+    "voice_settings": {
+      "stability": 0.3,
+      "similarity_boost": 0.85,
+      "style": 0.7,
+      "use_speaker_boost": true
+    },
+    "file": "02-isla.mp3",
+    "duration_s": 3.84,
+    "request_id": "MUIR594WKJNWs157q2vi"
+  },
+  "03": {
+    "speaker": "teo",
+    "start_s": 36.4,
+    "on_camera": true,
+    "text": "Especially from you.",
+    "voice_id": "Za7XjFFMhsQcPLrde8h5",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.85,
+      "style": 0.35,
+      "use_speaker_boost": true
+    },
+    "file": "03-teo.mp3",
+    "duration_s": 1.2,
+    "request_id": "U6yhdDbT3ooWpTooD8Vh"
+  },
+  "04": {
+    "speaker": "isla",
+    "start_s": 40.4,
+    "on_camera": true,
+    "text": "You beat me half blind!",
+    "voice_id": "nRrBXmtSFSKpEMXs3fMU",
+    "voice_settings": {
+      "stability": 0.3,
+      "similarity_boost": 0.85,
+      "style": 0.7,
+      "use_speaker_boost": true
+    },
+    "file": "04-isla.mp3",
+    "duration_s": 2.09,
+    "request_id": "5nfDSuJuk8RWkqUldXhZ"
+  },
+  "05": {
+    "speaker": "teo",
+    "start_s": 44.4,
+    "on_camera": true,
+    "text": "With one good eye.",
+    "voice_id": "Za7XjFFMhsQcPLrde8h5",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.85,
+      "style": 0.35,
+      "use_speaker_boost": true
+    },
+    "file": "05-teo.mp3",
+    "duration_s": 1.33,
+    "request_id": "22YGIUUa3ocaymOjgy3A"
+  },
+  "06": {
+    "speaker": "teo",
+    "start_s": 53.4,
+    "on_camera": true,
+    "text": "Three years ago they offered you my seat. With my doctor.",
+    "voice_id": "Za7XjFFMhsQcPLrde8h5",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.85,
+      "style": 0.35,
+      "use_speaker_boost": true
+    },
+    "file": "06-teo.mp3",
+    "duration_s": 3.89,
+    "request_id": "aKTsp8diRHb7WYAA77qI"
+  },
+  "07": {
+    "speaker": "teo",
+    "start_s": 67.4,
+    "on_camera": true,
+    "text": "I kept you out so they couldn't do this to you.",
+    "voice_id": "Za7XjFFMhsQcPLrde8h5",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.85,
+      "style": 0.35,
+      "use_speaker_boost": true
+    },
+    "file": "07-teo.mp3",
+    "duration_s": 2.74,
+    "request_id": "RuTfE21nFzBRLTkdRmw7"
+  }
+}
