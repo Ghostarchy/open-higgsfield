@@ -27,6 +27,14 @@ LOCK = {
               "a boom microphone, a hand microphone with a plain black flag"),
     "MARA": ("MARA MARSH: Teo's wife, early 30s, wavy shoulder-length chestnut-brown hair, hazel eyes, light "
              "freckles across her nose, black wool coat over a grey knit sweater, a thin silver wedding band"),
+    "REPORTER": ("LEO VANCE: a pit-lane TV reporter in his early 30s, sharp jawline, short dark-brown hair swept "
+                 "up, brown eyes, navy suit, open-collared light-grey shirt, holding a black foam-covered "
+                 "microphone with no logo"),
+    "PODIUM": ("THE PODIUM: a wet black stage under a grey sky, a huge dark-blue backdrop printed with a gold "
+               "laurel wreath and a star and no readable words, gold and blue confetti on the wet floor, "
+               "photographers and TV cameras crowding the front edge"),
+    "HARBOUR": ("THE HARBOUR: a rain-soaked industrial dock at night, rusted corrugated warehouses, stacked "
+                "containers, tall cranes against low black clouds, sodium lamps reflecting in puddles, mist"),
     "CAR4": ("CAR 4, the WRAITH: a matte graphite-black Le Mans-style hypercar prototype, long low body, "
              "enclosed cockpit with a dark tinted canopy, thin white LED light slits, tall rear wing, one thin "
              "silver stripe nose to tail, a large white number 4 on the nose and doors, streaks of dust and tyre "
@@ -134,13 +142,13 @@ DIALOGUE = [
     (3.6, "BRIAN (VO)", "Three thousand miles... and it comes down to one.", False),
     (9.4, "BRIAN", "And the black number four still leads. Teo Marsh.", True),
     (16.3, "BRIAN (VO)", "Five times he has won here. Never by this little.", False),
-    (25.4, "DECLAN", "Teo, your rears are down to the canvas. Do you copy?", True),
+    (25.4, "DECLAN", "Teo, your rears are gone. Do you copy?", True),
     (29.5, "DECLAN (VO)", "Teo. Do you copy?", False),
     (35.3, "STRATEGIST (VO)", "Ferreira is coming. Point four. Point three.", False),
     (38.3, "BRIAN (VO)", "Three years as his reserve driver. Three years in his shadow.", False),
     (44.6, "BRIAN (VO)", "They've touched!", False),
     (47.3, "BRIAN (VO)", "He's gone, he's sideways—", False),
-    (53.4, "BRIAN", "He held it! I don't know how, but he held it!", True),
+    (53.4, "BRIAN", "He held it! How did he hold that?!", True),
     (57.3, "BRIAN (VO)", "Side by side to the flag!", False),
     (74.0, "TEO (radio, VO)", "Declan... I can't see the line.", False),
 ]
@@ -170,86 +178,226 @@ CAPTION = ("He led for 23 hours and 59 minutes. Then the radio went quiet. 🏁 
 PINNED = "EP02 tomorrow. How long has his team known? 👀"
 
 
-def timeline():
+# Name titles: thin white sans, top left, underlined (the reference's lower-third style). (start, end, text)
+GRAPHICS = [
+    (9.2, 12.6, "BRIAN ASHCROFT"),
+    (16.0, 19.0, "TEO MARSH"),
+    (19.0, 22.0, "MARA MARSH"),
+    (25.0, 29.0, "DECLAN HOLT  ·  RACE ENGINEER"),
+    (41.0, 44.0, "ISLA FERREIRA"),
+]
+
+# ---------------------------------------------------------------- Episode 2: "The Line"
+SHOTS2 = {
+    1: (5, ["CAR4", "CAR19", "TRACK"], "Extreme slow motion, track-level camera exactly on the white finish line: "
+        "the noses of CAR 4 and CAR 19 cross the line side by side through white tyre smoke, confetti-like "
+        "sparks and rubber fragments hanging in the air. Emotion: no one knows who won."),
+    2: (3, ["CAR4"], "Extreme close-up of the steering-wheel display in CAR 4: red shift lights fade out one by "
+        "one, the gear readout drops to N, the lap counter flickers. Emotion: it is over, but how?"),
+    3: (4, ["BRIAN"], "Close-up of BRIAN ASHCROFT in the commentary booth, both hands on his headset, staring "
+        "at a monitor off-screen, mouth open, then speaking slowly and clearly into the microphone, lips moving "
+        "with his words. Emotion: disbelief turning into awe."),
+    4: (3, ["MARA"], "Close-up of MARA MARSH at the fence, eyes closed, tears on her cheeks, her hand with the "
+        "wedding band over her mouth, the crowd behind her erupting. Emotion: relief she cannot show."),
+    5: (4, ["TEO", "PODIUM"], "Low wide shot from the confetti-covered wet floor up to the podium: TEO MARSH stands "
+        "alone in his graphite race suit with his helmet still on and visor down, holding a tall twisted silver "
+        "and gold trophy, photographers' flashes firing from both sides. Emotion: a champion who will not show "
+        "his face."),
+    6: (3, ["TEO"], "Macro close-up of the trophy in a gloved hand: twisted ribbons of polished silver with gold "
+        "edges, water droplets on the metal, the reflection of camera flashes sliding across it, Teo's visor "
+        "blurred behind. Emotion: the prize."),
+    7: (4, ["TEO", "PODIUM"], "High-angle shot over the heads of a crush of photographers and TV crews as TEO MARSH "
+        "walks down the podium steps into them, helmet on, trophy under his arm, microphones and lenses pushed "
+        "toward him from every side, team staff in grey vests behind. Emotion: the world wants him."),
+    8: (4, ["REPORTER", "PODIUM"], "Handheld close-up of LEO VANCE pushing to the front of the scrum, thrusting his "
+        "microphone toward camera and speaking fast and loud, eyes wide, lips moving clearly with his words, "
+        "flash guns going off behind him. Emotion: the question everyone wants answered."),
+    9: (4, ["TEO"], "Tight close-up on TEO MARSH's helmet facing camera, a forest of microphones in the foreground, "
+        "rain drops on the dark visor; behind the visor only his eyes are visible, still and unreadable. "
+        "Emotion: he is about to say something no one expects."),
+    10: (3, ["ISLA"], "Medium shot of ISLA FERREIRA at the edge of the scrum, helmet under her arm, black hair "
+         "coming loose, sweat on her face, staring at Teo with her jaw set. Emotion: she lost by nothing."),
+    11: (4, ["TEO"], "Macro shot of TEO MARSH's helmet chin bar in soft focus, the white number 4 sharp in the "
+         "centre, then his gloved hands slowly unfasten the strap. Emotion: the mask is coming off."),
+    12: (6, ["TEO", "PODIUM"], "Slow push in as TEO MARSH lifts his helmet off in front of the press: his "
+         "dark-blond hair is wet with sweat, and as he raises his face to the flashes his left eye is clouded "
+         "milky grey while his right eye is clear. The flashes stop. Emotion: the secret, in front of everyone."),
+    13: (3, ["REPORTER"], "Close-up of LEO VANCE slowly lowering his microphone, mouth open, frozen. Emotion: "
+         "shock."),
+    14: (3, ["MARA"], "Close-up of MARA MARSH at the back of the crowd, nodding very slightly at Teo through her "
+         "tears, as if to say: tell them. Emotion: she has carried this with him."),
+    15: (4, ["DECLAN"], "Close-up of DECLAN HOLT in the crowd of team staff, not surprised, looking away from Teo "
+         "and down at the ground, guilt all over his face. Emotion: he knew."),
+    16: (5, ["HARBOUR"], "Hard cut to night. High wide shot over THE HARBOUR in heavy rain, cranes and lights in "
+         "the mist, a single dark car parked alone beside a rusted warehouse with its interior light on. Slow "
+         "drift down toward the car. Emotion: far from the cheering."),
+    17: (6, ["DECLAN", "HARBOUR"], "Inside the car at night, rain streaming down the windscreen, DECLAN HOLT alone "
+         "in the driver's seat lit by the dome light, opening a creased white envelope and pulling out a medical "
+         "eye scan printout. His hands are shaking. Emotion: evidence."),
+    18: (4, ["DECLAN"], "Extreme close-up of the eye-scan printout in Declan's hands: a grey retinal image with a "
+         "dark shadow across it, a handwritten signature at the bottom and a date stamp, rain-light rippling "
+         "across the paper. Emotion: this is older than anyone admitted."),
+    19: (6, ["DECLAN", "HARBOUR"], "Close-up of DECLAN HOLT holding his phone to his ear in the dark car, rain "
+         "shadows running down his face, listening, eyes closed, his mouth hidden behind his hand. Emotion: "
+         "the voice on the other end is someone powerful."),
+    20: (6, ["HARBOUR"], "Low angle through the rain-streaked windscreen: headlights of a black car slowly pull up "
+         "behind Declan's car and stop, light flooding the interior, a figure gets out and walks toward the "
+         "driver's door holding an umbrella, face hidden. Emotion: danger."),
+}
+
+DIALOGUE2 = [
+    (0.4, "BRIAN (VO)", "Who won? Nobody in this circuit knows who won.", False),
+    (8.4, "BRIAN", "Number four. By three thousandths of a second.", True),
+    (15.4, "BRIAN (VO)", "Six wins. And he still won't take his helmet off.", False),
+    (26.4, "LEO", "Teo! Six wins! Is there a seventh?", True),
+    (30.6, "TEO (behind visor, VO)", "There won't be a seventh.", False),
+    (43.2, "BRIAN (VO)", "Oh my word...", False),
+    (47.4, "TEO (VO)", "I've been half blind since spring.", False),
+    (72.6, "PHONE VOICE (VO)", "You signed it, Declan. Six months ago.", False),
+    (79.4, "PHONE VOICE (VO)", "Now get out of the car.", False),
+]
+
+CARD2 = ["THE TEAM KNEW.", "FOR SIX MONTHS."]
+
+SOUND2 = [
+    ("0-5", "Slow-motion engine roar stretched into a deep drone; crowd held under water"),
+    ("5-15", "Silence breaks on the dashboard; Brian; the crowd explodes; Mara's breath"),
+    ("15-26", "Podium: champagne pops, photographers' shutters, chanting; score: triumphant strings"),
+    ("26-37", "Scrum: overlapping shouted questions, shutter bursts; Teo's line muffled inside the helmet"),
+    ("37-41", "Buckle clicks; the crowd quietens; score drops to one sustained note"),
+    ("41-57", "Shutters stop dead; a single gasp; heartbeat; Teo's voice close and quiet"),
+    ("57-62", "Hard cut: heavy rain on metal roofs, distant ship horn, buzzing sodium lamps"),
+    ("62-78", "Inside the car: rain on the roof, paper rustling, a phone vibrating; the voice through the speaker"),
+    ("78-84", "Tyres on wet gravel, a car door, footsteps in puddles, an umbrella opening"),
+    ("84-90", "Hard cut to black on one low drum hit"),
+]
+
+GRAPHICS2 = [
+    (8.2, 11.8, "BRIAN ASHCROFT"),
+    (26.0, 29.6, "LEO VANCE  ·  PIT LANE"),
+    (34.0, 37.0, "ISLA FERREIRA  ·  2ND, +0.003s"),
+    (62.0, 65.0, "DECLAN HOLT"),
+]
+
+CAPTION2 = ("He won by 0.003 seconds. Then he took off his helmet. 🏁 EP02 | TWENTY-FOUR "
+            "#racing #motorsport #shortdrama #aistory #cinematic")
+PINNED2 = "EP03 tomorrow. Who was in the second car? 👀"
+
+EPISODES = [
+    {"num": 1, "title": "The Last Minute", "shots": SHOTS, "dialogue": DIALOGUE, "card": CARD,
+     "sound": SOUND, "graphics": GRAPHICS, "caption": CAPTION, "pinned": PINNED},
+    {"num": 2, "title": "The Line", "shots": SHOTS2, "dialogue": DIALOGUE2, "card": CARD2,
+     "sound": SOUND2, "graphics": GRAPHICS2, "caption": CAPTION2, "pinned": PINNED2},
+]
+
+
+def timeline(shots):
     t, rows = 0, []
-    for n, (secs, _, _) in SHOTS.items():
+    for n, (secs, _, _) in shots.items():
         rows.append((n, t, t + secs))
         t += secs
     return rows, t
 
 
-def shot_at(t):
-    rows, _ = timeline()
+def shot_at(shots, t):
+    rows, _ = timeline(shots)
     return next(n for n, a, b in rows if a <= t < b)
 
 
-def lipsync_shots():
-    return sorted({shot_at(t) for t, _, _, on_camera in DIALOGUE if on_camera})
+def lipsync_shots(ep):
+    return sorted({shot_at(ep["shots"], t) for t, _, _, on_camera in ep["dialogue"] if on_camera})
 
 
-def prompt(n):
-    secs, locks, action = SHOTS[n]
+def prompt(shots, n):
+    secs, locks, action = shots[n]
     return " ".join([action] + [LOCK[k] + "." for k in locks] + [STYLE])
 
 
+def episode_md(ep):
+    shots = ep["shots"]
+    rows, end = timeline(shots)
+    assert end + 6 == 90, f"EP{ep['num']}: shots end at {end}s; the card needs the last 6 s"
+    md = [f"## Episode {ep['num']} — \"{ep['title']}\"", "", "| Time | Shot | Beat |", "|---|---|---|"]
+    md += [f"| {a}–{b} s | {n} | {shots[n][2].split('. ')[0]} |" for n, a, b in rows]
+    md += [f"| 84–90 s | card | Black. {' / '.join(ep['card'])} |", "",
+           "### Dialogue and voiceover", "", "| Time | Who | Line | Lip sync |", "|---|---|---|---|"]
+    md += [f"| {s:.1f} s | {w} | \"{t}\" | {'Seedance (on camera)' if oc else '—'} |"
+           for s, w, t, oc in ep["dialogue"]]
+    md += ["", "### Graphics", "",
+           "Subtitles: white italic sans, centred in the lower middle, 1–6 words per card, timed to each line.",
+           "Name titles: large thin white sans at the top left with a thin underline, fading in over 0.3 s:", ""]
+    md += [f"- {a:.1f}–{b:.1f} s: {t}" for a, b, t in ep["graphics"]]
+    md += ["", "### Shot prompts", "",
+           "Kling 3.0 Pro image-to-video, sound off, from a start frame made from the locked references. "
+           f"Shots with an on-camera line ({', '.join(str(n) for n in lipsync_shots(ep))}) render with Seedance "
+           "2.0 image-to-video plus the shot-timed dialogue audio so the lips match the voice.", ""]
+    for n, a, b in rows:
+        secs, locks, _ = shots[n]
+        md += [f"**SHOT {n} — {a}–{b} s** · {secs} s · locks: {', '.join(locks)}", "", "```",
+               prompt(shots, n), "```", ""]
+    md += ["### Sound and music", "", "| Time (s) | Cue |", "|---|---|"]
+    md += [f"| {t} | {c} |" for t, c in ep["sound"]]
+    md += ["", "### Posting", "", f"**Caption:** {ep['caption']}", "", f"**Pinned comment:** {ep['pinned']}", ""]
+    return md
+
+
+def check(ep):
+    rows, _ = timeline(ep["shots"])
+    starts = []
+    for t, who, text, oc in ep["dialogue"]:
+        n = shot_at(ep["shots"], t)
+        a, b = next((a, b) for k, a, b in rows if k == n)
+        est = len(text.split()) / 2.6  # ~2.6 words/s for these deliveries
+        starts.append((t, t + est, who))
+        if oc and t + est > b:
+            print(f"warning EP{ep['num']}: on-camera line at {t}s may outrun shot {n} ({a}-{b})")
+    for (a0, a1, w0), (b0, _, w1) in zip(starts, starts[1:]):
+        if a1 > b0:
+            print(f"warning EP{ep['num']}: '{w0}' at {a0}s may run into '{w1}' at {b0}s")
+
+
 def write_bible():
-    rows, end = timeline()
-    assert end + 6 == 90, f"shots end at {end}s; the card needs the last 6 s"
-    md = ["# TWENTY-FOUR — Series Bible and Episode 1", "",
+    md = ["# TWENTY-FOUR — Series Bible", "",
           "Original endurance-racing drama for TikTok, Reels and Shorts (9:16, 90 s episodes). The visual language "
           "follows the supplied reference frames (ground-level dust shots, pit-wall close-ups, broadcast booth, "
-          "mirror reveals, helmet visor close-ups, italic centred subtitles); the characters, cars, team, circuit "
-          "and story are original.", "",
+          "mirror reveals, helmet visor close-ups, the podium press scrum, name titles, the hard cut to a dark "
+          "night location); the characters, cars, team, circuit and story are original.", "",
           "## Premise", "",
           "Teo Marsh, five-time winner of the Kestrel Bay 24 Hours, leads his final race by seconds with one minute "
           "left. His tyres are gone and his radio has gone silent. Closing in is Isla Ferreira, the reserve driver he "
-          "kept on the bench for three years. The secret nobody in his team knows: Teo is losing the sight in one "
-          "eye, and for the last six hours he has been driving from memory.", "",
-          "His wife Mara is the only person in the crowd who isn't cheering. "
-          "Series engine: every episode is one stretch of a single 24-hour race, told out of order, each ending on a "
-          "revelation that changes what the last episode meant.", "",
-          "## Locked descriptions", "",
-          "Paste these word for word. Every prompt below already contains the ones it needs.", ""]
+          "kept on the bench for three years. The secret: Teo is losing the sight in one eye, and for the last six "
+          "hours he has been driving from memory. His wife Mara is the only person in the crowd who isn't cheering. "
+          "And the team has known far longer than anyone will admit.", "",
+          "## Locked descriptions", "", "Paste these word for word. Every prompt already contains the ones it needs.", ""]
     md += [f"**{k}**\n> {v}\n" for k, v in LOCK.items()]
-    md += [f"**STYLE**\n> {STYLE}\n", "## Episode 1 — \"The Last Minute\"", "",
-           "| Time | Shot | Beat |", "|---|---|---|"]
-    for n, a, b in rows:
-        md.append(f"| {a}–{b} s | {n} | {SHOTS[n][2].split('. ')[0]} |")
-    md += [f"| 84–90 s | card | Black. {' / '.join(CARD)} |", "",
-           "### Dialogue and voiceover", "",
-           "| Time | Who | Line | Lip sync |", "|---|---|---|---|"]
-    md += [f"| {s:.1f} s | {w} | \"{t}\" | {'Seedance (on camera)' if oc else '—'} |" for s, w, t, oc in DIALOGUE]
-    md += ["", "Subtitles: white italic sans, centred in the lower middle, 1–6 words per card, timed to the line "
-           "(the reference style).", "", "### Shot prompts", "",
-           "Kling 3.0 Pro image-to-video, sound off, from a start frame made from the locked references. "
-           f"Shots with an on-camera line ({', '.join(str(n) for n in lipsync_shots())}) render with Seedance 2.0 "
-           "image-to-video plus the shot-timed dialogue audio so the lips match the voice.", ""]
-    for n, a, b in rows:
-        secs, locks, _ = SHOTS[n]
-        md += [f"**SHOT {n} — {a}–{b} s** · {secs} s · locks: {', '.join(locks)}", "", "```", prompt(n), "```", ""]
-    md += ["### Sound and music", "", "| Time (s) | Cue |", "|---|---|"]
-    md += [f"| {t} | {c} |" for t, c in SOUND]
-    md += ["", "### Posting", "", f"**Caption:** {CAPTION}", "", f"**Pinned comment:** {PINNED}", "",
-           "## Season arc (first 10)", "",
+    md += [f"**STYLE**\n> {STYLE}\n"]
+    for ep in EPISODES:
+        check(ep)
+        md += episode_md(ep)
+    md += ["## Season arc", "",
            "1. The Last Minute — Teo can't see the line; Isla is alongside.",
-           "2. Hour 18 — the night stint where Teo first sees double, and hides it from Declan.",
-           "3. The Podium — who crossed first, the trophy, and why the stewards are holding the result.",
-           "4. Three Years Ago — the day Teo kept Isla out of the car.",
-           "5. Declan's Choice — the engineer knew at hour 20 and told no one.",
-           "6. The Team Owner — the contract clause that made Teo race no matter what.",
-           "7. The Doctor — the scan Teo never opened.",
-           "8. Isla's Radio — what her own engineer told her to do at the chicane.",
-           "9. The Contact — slow-motion replay; it wasn't an accident.",
-           "10. The Podium — one of them refuses to stand on it.", "",
+           "2. The Line — he wins by 0.003 s, takes off his helmet, and the team's secret surfaces at the harbour.",
+           "3. The Car Behind — who stepped out of the second car, and what they want from Declan.",
+           "4. Hour 18 — the night stint where Teo first saw double, and hid it.",
+           "5. Three Years Ago — the day Teo kept Isla out of the car.",
+           "6. The Contract — the clause that made Teo race no matter what.",
+           "7. The Doctor — who signed the scan, and who paid them.",
+           "8. Isla's Radio — what her own engineer told her at the chicane.",
+           "9. The Stewards — the result is under review.",
+           "10. The Seventh — Teo's choice.", "",
            "## Production notes", "",
-           "- References to lock first: Teo, Isla, Declan, Brian, Mara, car 4, car 19 (each car three-quarter front and side).",
-           "- Never put real brands, real circuits or real broadcasters in frame; ask for plain flags and blank screens.",
+           "- References to lock first: Teo (helmet on and off), Isla, Declan, Brian, Mara, Leo, car 4, car 19, the "
+           "trophy, the podium, the harbour.",
+           "- Never put real brands, series, circuits or broadcasters in frame (the reference's podium shows real "
+           "championship logos; ours uses a plain laurel and star).",
            "- Lip sync: Seedance 2.0 `image-to-video` with `audio_urls` (tested: 1080p, 24 fps, full motion).",
-           "- Helmeted drivers never need lip sync: their lines are radio voiceover.",
-           "- Readable text (names, numbers on screens) is added in post; generated text is unreliable.",
+           "- Helmeted or hidden mouths never need lip sync: those lines are voiceover.",
+           "- Readable text (names, numbers, screens, name titles) is added in post; generated text is unreliable.",
            "- Reference screenshots stay local (`reference/`, git-ignored): they are another creator's frames."]
     pathlib.Path(__file__).with_name("SERIES-BIBLE.md").write_text("\n".join(md) + "\n")
-    print("shots", len(SHOTS), "end", end, "max prompt", max(len(prompt(n)) for n in SHOTS))
+    for ep in EPISODES:
+        print(f"EP{ep['num']}: {len(ep['shots'])} shots, lip sync {lipsync_shots(ep)}, max prompt "
+              f"{max(len(prompt(ep['shots'], n)) for n in ep['shots'])}")
 
 
 if __name__ == "__main__":
