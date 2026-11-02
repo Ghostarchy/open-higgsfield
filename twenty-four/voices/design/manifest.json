@@ -1,0 +1,149 @@
+{
+  "brian": {
+    "voice_description": "A British male TV motorsport commentator in his early sixties, rich warm baritone, fast and excitable when the action peaks, classic broadcast delivery, clean studio recording.",
+    "text": "Twenty-three hours and fifty-nine minutes. Three thousand miles, and it comes down to one. And the black number four still leads. He held it! How did he hold that?!",
+    "previews": [
+      {
+        "option": 1,
+        "file": "brian-option1.mp3",
+        "generated_voice_id": "WBsYWdmzawBCHqeCkN6V"
+      },
+      {
+        "option": 2,
+        "file": "brian-option2.mp3",
+        "generated_voice_id": "0gY5g5SGyPxMuhUzzNxa"
+      },
+      {
+        "option": 3,
+        "file": "brian-option3.mp3",
+        "generated_voice_id": "2xfnjYAJ71nWTnQdHCXy"
+      }
+    ]
+  },
+  "declan": {
+    "voice_description": "A man in his late forties, a race engineer on team radio, gruff and tense, low voice, trying to stay calm, slight Northern English accent, clean studio recording.",
+    "text": "Teo, your rears are gone. Do you copy? Teo. Do you copy? Box this lap if you can hear me. Teo, talk to me.",
+    "previews": [
+      {
+        "option": 1,
+        "file": "declan-option1.mp3",
+        "generated_voice_id": "bvzvNQrzuw6aVPp4obrt"
+      },
+      {
+        "option": 2,
+        "file": "declan-option2.mp3",
+        "generated_voice_id": "AcA9FCo452BWxzp8yfLI"
+      },
+      {
+        "option": 3,
+        "file": "declan-option3.mp3",
+        "generated_voice_id": "AISjcastpTulGtdiTEvO"
+      }
+    ]
+  },
+  "teo": {
+    "voice_description": "A man of thirty-eight, a world-weary champion racing driver, quiet, low and controlled, slightly husky, understated, neutral English accent, clean studio recording.",
+    "text": "Declan, I can't see the line. There won't be a seventh. Especially from you. I kept you out so they couldn't do this to you.",
+    "previews": [
+      {
+        "option": 1,
+        "file": "teo-option1.mp3",
+        "generated_voice_id": "Za7XjFFMhsQcPLrde8h5"
+      },
+      {
+        "option": 2,
+        "file": "teo-option2.mp3",
+        "generated_voice_id": "xnfF8hmi9XgXHFHGcZl5"
+      },
+      {
+        "option": 3,
+        "file": "teo-option3.mp3",
+        "generated_voice_id": "7nGtcGHLWZSJtOzsDsSf"
+      }
+    ]
+  },
+  "isla": {
+    "voice_description": "A woman of twenty-six, a fierce racing driver, strong and emotional, voice cracking with anger and hurt, slight Portuguese accent in English, clean studio recording.",
+    "text": "Where is he, Declan? You hid it from everyone. Even from me. You beat me half blind! Three years on the bench, and this is why?",
+    "previews": [
+      {
+        "option": 1,
+        "file": "isla-option1.mp3",
+        "generated_voice_id": "jekAnyhzbWUIjivKCXcN"
+      },
+      {
+        "option": 2,
+        "file": "isla-option2.mp3",
+        "generated_voice_id": "nRrBXmtSFSKpEMXs3fMU"
+      },
+      {
+        "option": 3,
+        "file": "isla-option3.mp3",
+        "generated_voice_id": "fMDosqgqCXSFOegOHBB0"
+      }
+    ]
+  },
+  "leo": {
+    "voice_description": "A male TV reporter in his early thirties, energetic, fast, loud, shouting a question over a crowd, neutral English accent, clean studio recording.",
+    "text": "Teo! Six wins! Is there a seventh? Teo, over here! The whole paddock wants to know, is this the end?",
+    "previews": [
+      {
+        "option": 1,
+        "file": "leo-option1.mp3",
+        "generated_voice_id": "dJF9l0HLXH0NdT2AmN3v"
+      },
+      {
+        "option": 2,
+        "file": "leo-option2.mp3",
+        "generated_voice_id": "L5u5gCSY29KTG6jHHOv2"
+      },
+      {
+        "option": 3,
+        "file": "leo-option3.mp3",
+        "generated_voice_id": "62BpdROdt3lqtm6h2811"
+      }
+    ]
+  },
+  "owner": {
+    "voice_description": "A man in his sixties, wealthy and powerful, smooth, warm on the surface and cold underneath, slow and deliberate, refined English accent, phone-call intimacy, clean studio recording.",
+    "text": "Hello, Isla. Ready to drive for me? You signed it, Declan. Six months ago. Now get out of the car. I always get what I paid for.",
+    "previews": [
+      {
+        "option": 1,
+        "file": "owner-option1.mp3",
+        "generated_voice_id": "6cDLQEBz9dKSvPakiJRc"
+      },
+      {
+        "option": 2,
+        "file": "owner-option2.mp3",
+        "generated_voice_id": "UJLrI3KjEs553acwCVWr"
+      },
+      {
+        "option": 3,
+        "file": "owner-option3.mp3",
+        "generated_voice_id": "xiblAuRZGKsImeV3IyCf"
+      }
+    ]
+  },
+  "strategist": {
+    "voice_description": "A man in his thirties, a race strategist calling gaps on the radio, clipped and urgent, neutral English accent, clean studio recording.",
+    "text": "Ferreira is coming. Point four. Point three. Point two. She's in the window, Declan. Tell him to defend the inside into the chicane.",
+    "previews": [
+      {
+        "option": 1,
+        "file": "strategist-option1.mp3",
+        "generated_voice_id": "pVy1joH3wL90wZckpuWq"
+      },
+      {
+        "option": 2,
+        "file": "strategist-option2.mp3",
+        "generated_voice_id": "hr7KZs4KfXXlKbdmMkFA"
+      },
+      {
+        "option": 3,
+        "file": "strategist-option3.mp3",
+        "generated_voice_id": "XPnQ4qWhnCVrrCGEYTjM"
+      }
+    ]
+  }
+}

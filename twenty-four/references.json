@@ -1,0 +1,92 @@
+{
+  "teo": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Character reference, waist-up, front view, face clearly visible, standing in a pit garage, helmet under his arm. TEO MARSH: a 38-year-old male endurance racing driver, lean face, short dark-blond hair greying at the temples, pale grey-green eyes, a thin white scar through his left eyebrow, three-day stubble, matte graphite racing suit with thin silver piping, matte graphite helmet with one silver stripe over the crown and a white number 4 on the chin bar. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19e24-491a-7a9f-8937-7800459d25b0",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19e24-491a-7a9f-8937-7800459d25b0/d4ea2f37-0ac8-4b97-88b6-040a68120d80.png",
+    "file": "teo.png",
+    "approved_by_claude_review": true
+  },
+  "trophy": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Prop reference, studio close-up of a tall endurance-race trophy made of twisted ribbons of polished silver with gold edges on a black base, no text. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "1:1",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19e24-a814-705e-9ce8-9510acc188b2",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19e24-a814-705e-9ce8-9510acc188b2/19e113f8-ca2c-4178-8352-7b5f0ca1736e.png",
+    "file": "trophy.png",
+    "needs_redo": "plain fluted column, not twisted silver ribbons"
+  },
+  "car19": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Vehicle reference, three-quarter front view, parked on an empty pit straight. CAR 19: a white Le Mans-style hypercar prototype with sharp orange chevrons over the front fenders, black underside and splitter, round amber LED headlights, tall rear wing, a large black number 19 on white door roundels. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19e24-a824-7044-a4a6-4fdffa8b053f",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19e24-a824-7044-a4a6-4fdffa8b053f/5cc43c4e-741e-4eb9-a777-df9b7839eaf6.png",
+    "file": "car19.png",
+    "needs_redo": "reads as a 1990s GT car, not a modern Le Mans-style prototype"
+  },
+  "car4": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Vehicle reference, three-quarter front view, parked on an empty pit straight. CAR 4, the WRAITH: a matte graphite-black Le Mans-style hypercar prototype, long low body, enclosed cockpit with a dark tinted canopy, thin white LED light slits, tall rear wing, one thin silver stripe nose to tail, a large white number 4 on the nose and doors, streaks of dust and tyre rubber on the bodywork. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19e24-a83e-74cc-88a8-55d90e6d831e",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19e24-a83e-74cc-88a8-55d90e6d831e/1d202d8e-e9d6-4d99-8bc1-43b6fb4a162e.png",
+    "file": "car4.png",
+    "approved_by_claude_review": true
+  },
+  "owner_hand": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Prop reference, close-up of the hand resting on a glass desk. THE OWNER'S HAND: a man's hand in a dark charcoal suit cuff, a heavy gold signet ring engraved with a hawk on the little finger, an expensive steel watch. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "1:1",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19e24-a826-7bba-95c9-b391cf8190d3",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19e24-a826-7bba-95c9-b391cf8190d3/08aea5ce-a162-4840-9540-c40b14664296.png",
+    "file": "owner_hand.png",
+    "approved_by_claude_review": true
+  },
+  "declan": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Character reference, waist-up, front view, face clearly visible, standing at a pit-wall desk with monitors. DECLAN HOLT: Teo's race engineer, a heavy-set man in his late 40s, short dark receding hair, five-o'clock shadow, sweat on his forehead and temples, black team softshell jacket with a small silver monogram, black over-ear headset with a boom microphone. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19e24-a83c-7f0b-a80b-de68c5bb66c9",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19e24-a83c-7f0b-a80b-de68c5bb66c9/49a8ed3e-cd82-4d33-813b-52e22bc65477.png",
+    "file": "declan.png",
+    "needs_redo": "bald with goatee; lock says short dark receding hair and stubble"
+  }
+}
