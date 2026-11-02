@@ -535,5 +535,20 @@
     "status": "completed",
     "url": "https://cloud-cdn.higgsfield.ai/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19dcc-d0cc-72de-bac3-ecf9f0e925d9/7454f41e-85f7-4370-bd4c-e5a1849487d9.mp4",
     "file": "shot11-lipsync.mp4"
+  },
+  "shot11b-lipsync": {
+    "model": "higgsfield-ai/speak",
+    "request": {
+      "image_url": "https://raw.githubusercontent.com/Ghostarchy/open-higgsfield/claude/fervent-johnson-ls3c84/ice-wolves/ep01/frames/shot11b-from-kling-2.5s.png",
+      "audio_url": "https://raw.githubusercontent.com/Ghostarchy/open-higgsfield/claude/fervent-johnson-ls3c84/ice-wolves/ep01/audio/lipsync/shot11b-asha.wav",
+      "prompt": "The chieftain stands frozen in shock, empty-handed, staring ahead. She whispers in disbelief, her lips moving clearly with the words. The red-haired boy behind her stares with his mouth open. Static camera, snow falling. epic cinematic fantasy, frozen mountain clan, snow falling, pale blue and silver tones with warm torchlight, shallow depth of field, film grain, photorealistic, 9:16 vertical",
+      "duration": 5,
+      "quality": "high",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19dd4-acf9-7cf3-ab1c-531ae4366121",
+    "status": "completed",
+    "url": "https://cloud-cdn.higgsfield.ai/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19dd4-acf9-7cf3-ab1c-531ae4366121/19cdae87-f6eb-4d04-8f88-d4634ede8468.mp4",
+    "file": "shot11b-lipsync.mp4"
   }
 }

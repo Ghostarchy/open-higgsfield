@@ -204,6 +204,24 @@ LIPSYNC = {
 }
 
 
+# Shot 11 middle: Speak from Kling's own frame at 2.5 s (spear already dropped) so the cut back to Kling
+# for the clan kneeling stays continuous.
+RAW_FRAME = ("https://raw.githubusercontent.com/Ghostarchy/open-higgsfield/claude/fervent-johnson-ls3c84/"
+             "ice-wolves/{ep}/frames/{name}")
+
+
+def run_lipsync_11b():
+    key = "shot11b-lipsync"
+    hf.submit(ledger, key, "higgsfield-ai/speak", {
+        "image_url": RAW_FRAME.format(ep=ep.name, name="shot11b-from-kling-2.5s.png"),
+        "audio_url": RAW.format(ep=ep.name, name="shot11b-asha.wav"),
+        "prompt": "The chieftain stands frozen in shock, empty-handed, staring ahead. She whispers in "
+                  "disbelief, her lips moving clearly with the words. The red-haired boy behind her stares "
+                  "with his mouth open. Static camera, snow falling. " + STYLE,
+        "duration": 5, "quality": "high", "enhance_prompt": False})
+    hf.wait(ledger, key, ep / "clips" / "shot11b-lipsync.mp4", interval=15)
+
+
 def run_lipsync(n):
     n = int(n)
     audio, secs, prompt = LIPSYNC[n]
@@ -237,6 +255,8 @@ elif stage == "end14":
     run_end_frame_14()
 elif stage == "clips":
     parallel(run_clip, which)
+elif stage == "lipsync11b":
+    run_lipsync_11b()
 elif stage == "lipsync":
     parallel(run_lipsync, which)
 elif stage == "cover":

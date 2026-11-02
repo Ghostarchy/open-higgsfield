@@ -26,7 +26,8 @@ LINES = [
     ("02", "kaelen", 17.0, 20.0, "Watch how a chieftain's son does it."),
     ("03", "asha", 31.0, 34.0, "Not you, child. It will tear you apart."),
     ("04", "mira", 44.0, 48.0, "I can't see you. But I can hear you're lonely."),
-    ("05", "asha", 63.0, 67.0, "Vorr hasn't bowed in three hundred years..."),
+    # Moved from 63.0 so the whisper lands inside the lip-synced middle of shot 11.
+    ("05", "asha", 64.7, 67.7, "Vorr hasn't bowed in three hundred years..."),
 ]
 
 
@@ -139,7 +140,7 @@ SFX = [
     # Power moment: total silence except the wolf's breath (plus a barely-there rune shimmer).
     ("wolf_breath", 50.0, -8, 0, 12, "afade=t=out:st=11:d=1"),
     ("runes_shimmer", 55.0, -24, 0, None, ""),
-    ("spear_drop", 62.6, -8, 0, None, ""), ("clan_kneel", 64.5, -12, 0, None, ""),
+    ("spear_drop", 63.4, -8, 0, None, ""), ("clan_kneel", 68.5, -12, 0, None, ""),
     ("crowd_murmur", 66.0, -28, 0, 6, "afade=t=in:d=1,afade=t=out:st=5:d=1"),
     ("war_horns", 72.0, -4, 0, None, ""), ("gate_crack", 74.0, -6, 0, None, ""),
     ("monster_growls", 77.5, -8, 0, None, ""), ("wolf_growl_turn", 79.2, -6, 0, None, ""),
@@ -172,16 +173,32 @@ run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(parts),
 
 # 4. Picture: one shared grade (cool silver shadows, warm torch highlights, grain).
 vin, vparts = [], []
+# Edit list: (clip, in-point, duration). On-camera dialogue uses lip-synced (Speak) clips when present.
+def shot(n):
+    lip = ep / "clips" / f"shot{n:02d}-lipsync.mp4"
+    return lip if lip.exists() else ep / "clips" / f"shot{n:02d}.mp4"
+
+
+EDL = []
 for n, secs in enumerate(DURS, 1):
-    vin += ["-i", str(ep / "clips" / f"shot{n:02d}.mp4")]
-    vparts.append(f"[{n - 1}:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,"
-                  f"fps=24,trim=duration={secs},setpts=PTS-STARTPTS,setsar=1[v{n}]")
+    if n == 11 and (ep / "clips/shot11b-lipsync.mp4").exists():
+        # Kling: spear drops -> Speak: whisper -> Kling: the clan kneels.
+        EDL += [(ep / "clips/shot11.mp4", 0, 2.5), (ep / "clips/shot11b-lipsync.mp4", 0, 5),
+                (ep / "clips/shot11.mp4", 7.5, 2.5)]
+    else:
+        EDL.append((ep / "clips" / f"shot{n:02d}.mp4" if n == 11 else shot(n), 0, secs))
+assert abs(sum(d for _, _, d in EDL) - CARD_AT) < 1e-6, "edit list must end at the card"
+for i, (clip, start, secs) in enumerate(EDL):
+    vin += ["-i", str(clip)]
+    vparts.append(f"[{i}:v]trim=start={start}:duration={secs},setpts=PTS-STARTPTS,"
+                  f"scale=1080:1920:force_original_aspect_ratio=increase:flags=lanczos,crop=1080:1920,"
+                  f"fps=24,setsar=1[v{i}]")
 vparts.append("color=c=black:s=1080x1920:r=24:d=4,setsar=1[vcard]")
 GRADE = ("eq=contrast=1.06:saturation=0.9,"
          "colorbalance=rs=-0.04:bs=0.05:rm=-0.02:bm=0.03:rh=0.04:gh=0.01:bh=-0.02,"
          "noise=alls=6:allf=t")
-chain = "".join(f"[v{n}]" for n in range(1, 15))
-vparts.append(f"{chain}concat=n=14:v=1:a=0,{GRADE}[graded]")
+chain = "".join(f"[v{i}]" for i in range(len(EDL)))
+vparts.append(f"{chain}concat=n={len(EDL)}:v=1:a=0,{GRADE}[graded]")
 vparts.append(f"[graded][vcard]concat=n=2:v=1:a=0,ass={ass}:fontsdir={fontsdir}[vout]")
 # A cut with any line still unvoiced is labelled interim so it is never mistaken for the final.
 missing = [ln["id"] for ln in lines if ln["wav"] is None]
@@ -193,7 +210,7 @@ elif missing:
 else:
     out = final / f"ep{EP_NUM}.mp4"
 run(["ffmpeg", "-v", "error", "-y", *vin, "-i", str(mix), "-filter_complex", ";".join(vparts),
-     "-map", "[vout]", "-map", f"{len(DURS)}:a", "-t", str(TOTAL), "-r", "24",
+     "-map", "[vout]", "-map", f"{len(EDL)}:a", "-t", str(TOTAL), "-r", "24",
      # 4 Mbps cap keeps a 90 s episode near 45 MB, under GitHub's 50 MB warning.
      "-c:v", "libx264", "-preset", "slow", "-crf", "20", "-maxrate", "4M", "-bufsize", "8M",
      "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(out)])
