@@ -138,7 +138,8 @@
     "request_id": "01a19de8-bb1b-7082-a0e2-abc07b6b3f16",
     "status": "completed",
     "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19de8-bb1b-7082-a0e2-abc07b6b3f16/3b2dacfa-388a-448c-a6f3-bf4ba65bb4ac.png",
-    "file": "sigrun.png"
+    "file": "sigrun.png",
+    "approved": "2026-11-02 by the user"
   },
   "grima": {
     "model": "higgsfield-ai/soul/cinema",
@@ -152,7 +153,8 @@
     "request_id": "01a19de8-bb58-731e-82de-a3290b17f157",
     "status": "completed",
     "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19de8-bb58-731e-82de-a3290b17f157/2252bc6f-2dde-447e-bd1a-7151fba29232.png",
-    "file": "grima.png"
+    "file": "grima.png",
+    "approved": "2026-11-02 by the user"
   },
   "mira4": {
     "model": "higgsfield-ai/soul/cinema",
@@ -166,6 +168,7 @@
     "request_id": "01a19de8-bc06-7f14-92ef-d5d1a3a5b7e1",
     "status": "completed",
     "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19de8-bc06-7f14-92ef-d5d1a3a5b7e1/0ff4895a-0b3f-453b-81e0-f71c707e4bf2.png",
-    "file": "mira4.png"
+    "file": "mira4.png",
+    "approved": "2026-11-02 by the user"
   }
 }
