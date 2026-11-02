@@ -505,5 +505,35 @@
     "status": "completed",
     "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b69-7f0e-79eb-a7c0-e47ed38cd208/e62de283-7add-4a7a-8cb6-cf746c7d5306.mp4",
     "file": "shot14.mp4"
+  },
+  "shot07-lipsync": {
+    "model": "higgsfield-ai/speak",
+    "request": {
+      "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b68-30e9-7e0b-835d-a9c3f4f8147e/17f777ed-72ba-479e-a78d-2d4fff4c9b38.png",
+      "audio_url": "https://raw.githubusercontent.com/Ghostarchy/open-higgsfield/claude/fervent-johnson-ls3c84/ice-wolves/ep01/audio/lipsync/shot07-asha.wav",
+      "prompt": "The chieftain kneels in the snow and grips the little girl's shoulder, speaking to her quietly and urgently, worried, shaking her head slightly. Her lips move clearly with the words. The girl listens, calm. Snow falling, torchlight. epic cinematic fantasy, frozen mountain clan, snow falling, pale blue and silver tones with warm torchlight, shallow depth of field, film grain, photorealistic, 9:16 vertical",
+      "duration": 5,
+      "quality": "high",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19dc8-fa02-7879-bb4b-a2f37fcb9eb0",
+    "status": "completed",
+    "url": "https://cloud-cdn.higgsfield.ai/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19dc8-fa02-7879-bb4b-a2f37fcb9eb0/6b9ee7af-e88c-4729-a27b-7e2c1df97500.mp4",
+    "file": "shot07-lipsync.mp4"
+  },
+  "shot11-lipsync": {
+    "model": "higgsfield-ai/speak",
+    "request": {
+      "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b68-3101-7867-a72b-117bb19de997/32dbbaec-183b-4190-be88-a06c16b84339.png",
+      "audio_url": "https://raw.githubusercontent.com/Ghostarchy/open-higgsfield/claude/fervent-johnson-ls3c84/ice-wolves/ep01/audio/lipsync/shot11-asha.wav",
+      "prompt": "The chieftain stands frozen in shock in the arena, her spear slipping from her fingers into the snow. She whispers in disbelief, her lips moving with the words. Behind her the red-haired boy stares with his mouth open, and the clan warriors on the stone tiers slowly kneel, torches lowering. Snow falling. epic cinematic fantasy, frozen mountain clan, snow falling, pale blue and silver tones with warm torchlight, shallow depth of field, film grain, photorealistic, 9:16 vertical",
+      "duration": 10,
+      "quality": "high",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19dcc-d0cc-72de-bac3-ecf9f0e925d9",
+    "status": "completed",
+    "url": "https://cloud-cdn.higgsfield.ai/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19dcc-d0cc-72de-bac3-ecf9f0e925d9/7454f41e-85f7-4370-bd4c-e5a1849487d9.mp4",
+    "file": "shot11-lipsync.mp4"
   }
 }

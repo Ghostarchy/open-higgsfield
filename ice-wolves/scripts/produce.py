@@ -188,8 +188,41 @@ def run_cover():
     hf.wait(ledger, "cover", ep / "cover" / "cover-art.png", interval=5)
 
 
+RAW = ("https://raw.githubusercontent.com/Ghostarchy/open-higgsfield/claude/fervent-johnson-ls3c84/"
+       "ice-wolves/{ep}/audio/lipsync/{name}")
+# On-camera lines: Higgsfield Speak animates the shot's start frame to the shot-timed audio.
+LIPSYNC = {
+    7: ("shot07-asha.wav", 5,
+        "The chieftain kneels in the snow and grips the little girl's shoulder, speaking to her quietly "
+        "and urgently, worried, shaking her head slightly. Her lips move clearly with the words. The "
+        "girl listens, calm. Snow falling, torchlight."),
+    11: ("shot11-asha.wav", 10,
+         "The chieftain stands frozen in shock in the arena, her spear slipping from her fingers into the "
+         "snow. She whispers in disbelief, her lips moving with the words. Behind her the red-haired boy "
+         "stares with his mouth open, and the clan warriors on the stone tiers slowly kneel, torches "
+         "lowering. Snow falling."),
+}
+
+
+def run_lipsync(n):
+    n = int(n)
+    audio, secs, prompt = LIPSYNC[n]
+    key = f"shot{n:02d}-lipsync"
+    hf.submit(ledger, key, "higgsfield-ai/speak", {
+        "image_url": ledger.data[f"shot{n:02d}-frame"]["url"],
+        "audio_url": RAW.format(ep=ep.name, name=audio),
+        "prompt": f"{prompt} {STYLE}", "duration": secs, "quality": "high", "enhance_prompt": False})
+    hf.wait(ledger, key, ep / "clips" / f"shot{n:02d}-lipsync.mp4", interval=15)
+
+
 def parallel(fn, items):
-    threads = [threading.Thread(target=fn, args=(i,)) for i in items]
+    # hf.submit raises SystemExit on an HTTP error, which a thread swallows silently; report it.
+    def guarded(i):
+        try:
+            fn(i)
+        except BaseException as e:
+            print(f"{fn.__name__}({i}) failed: {e}", flush=True)
+    threads = [threading.Thread(target=guarded, args=(i,)) for i in items]
     for t in threads:
         t.start()
     for t in threads:
@@ -204,5 +237,7 @@ elif stage == "end14":
     run_end_frame_14()
 elif stage == "clips":
     parallel(run_clip, which)
+elif stage == "lipsync":
+    parallel(run_lipsync, which)
 elif stage == "cover":
     run_cover()
