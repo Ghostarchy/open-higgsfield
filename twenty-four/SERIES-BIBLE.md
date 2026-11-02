@@ -326,7 +326,7 @@ Point of view from just behind TEO MARSH in the cockpit of CAR 4: gloved hands c
 | Time | Who | Line | Lip sync |
 |---|---|---|---|
 | 0.4 s | BRIAN (VO) | "Who won? Nobody in this circuit knows who won." | — |
-| 8.4 s | BRIAN | "Number four. By three thousandths of a second." | Seedance (on camera) |
+| 8.1 s | BRIAN | "Number four. By three thousandths of a second." | Seedance (on camera) |
 | 15.4 s | BRIAN (VO) | "Six wins. And he still won't take his helmet off." | — |
 | 26.4 s | LEO | "Teo! Six wins! Is there a seventh?" | Seedance (on camera) |
 | 30.6 s | TEO (behind visor, VO) | "There won't be a seventh." | — |

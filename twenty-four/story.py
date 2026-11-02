@@ -256,7 +256,7 @@ SHOTS2 = {
 
 DIALOGUE2 = [
     (0.4, "BRIAN (VO)", "Who won? Nobody in this circuit knows who won.", False),
-    (8.4, "BRIAN", "Number four. By three thousandths of a second.", True),
+    (8.1, "BRIAN", "Number four. By three thousandths of a second.", True),
     (15.4, "BRIAN (VO)", "Six wins. And he still won't take his helmet off.", False),
     (26.4, "LEO", "Teo! Six wins! Is there a seventh?", True),
     (30.6, "TEO (behind visor, VO)", "There won't be a seventh.", False),

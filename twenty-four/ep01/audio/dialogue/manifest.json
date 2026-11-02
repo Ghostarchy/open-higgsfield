@@ -1,0 +1,146 @@
+{
+  "01": {
+    "speaker": "brian",
+    "start_s": 0.6,
+    "on_camera": false,
+    "text": "Twenty-three hours and fifty-nine minutes.",
+    "voice_id": "0gY5g5SGyPxMuhUzzNxa",
+    "voice_settings": {
+      "stability": 0.4,
+      "similarity_boost": 0.85,
+      "style": 0.5,
+      "use_speaker_boost": true
+    },
+    "file": "01-brian.mp3",
+    "duration_s": 2.27,
+    "request_id": "JesNI1S38iEzXe4j9rg0"
+  },
+  "02": {
+    "speaker": "brian",
+    "start_s": 3.6,
+    "on_camera": false,
+    "text": "Three thousand miles... and it comes down to one.",
+    "voice_id": "0gY5g5SGyPxMuhUzzNxa",
+    "voice_settings": {
+      "stability": 0.4,
+      "similarity_boost": 0.85,
+      "style": 0.5,
+      "use_speaker_boost": true
+    },
+    "file": "02-brian.mp3",
+    "duration_s": 4.49,
+    "request_id": "Hq8KjUb3oISua7LKKZ5O"
+  },
+  "03": {
+    "speaker": "brian",
+    "start_s": 9.4,
+    "on_camera": true,
+    "text": "And the black number four still leads. Teo Marsh.",
+    "voice_id": "0gY5g5SGyPxMuhUzzNxa",
+    "voice_settings": {
+      "stability": 0.4,
+      "similarity_boost": 0.85,
+      "style": 0.5,
+      "use_speaker_boost": true
+    },
+    "file": "03-brian.mp3",
+    "duration_s": 2.82,
+    "request_id": "03fXpeaB3VbtrK05zU9k"
+  },
+  "04": {
+    "speaker": "brian",
+    "start_s": 16.3,
+    "on_camera": false,
+    "text": "Five times he has won here. Never by this little.",
+    "voice_id": "0gY5g5SGyPxMuhUzzNxa",
+    "voice_settings": {
+      "stability": 0.4,
+      "similarity_boost": 0.85,
+      "style": 0.5,
+      "use_speaker_boost": true
+    },
+    "file": "04-brian.mp3",
+    "duration_s": 3.16,
+    "request_id": "r4GnqxSYev6xZ0QfHgDt"
+  },
+  "08": {
+    "speaker": "brian",
+    "start_s": 38.3,
+    "on_camera": false,
+    "text": "Three years as his reserve driver. Three years in his shadow.",
+    "voice_id": "0gY5g5SGyPxMuhUzzNxa",
+    "voice_settings": {
+      "stability": 0.4,
+      "similarity_boost": 0.85,
+      "style": 0.5,
+      "use_speaker_boost": true
+    },
+    "file": "08-brian.mp3",
+    "duration_s": 3.76,
+    "request_id": "tXGYjgN0ieejLrgaUphT"
+  },
+  "09": {
+    "speaker": "brian",
+    "start_s": 44.6,
+    "on_camera": false,
+    "text": "They've touched!",
+    "voice_id": "0gY5g5SGyPxMuhUzzNxa",
+    "voice_settings": {
+      "stability": 0.3,
+      "similarity_boost": 0.85,
+      "style": 0.75,
+      "use_speaker_boost": true
+    },
+    "file": "09-brian.mp3",
+    "duration_s": 1.44,
+    "request_id": "BRlba3BvZXtDBBLzMKlU"
+  },
+  "10": {
+    "speaker": "brian",
+    "start_s": 47.3,
+    "on_camera": false,
+    "text": "He's gone, he's sideways\u2014",
+    "voice_id": "0gY5g5SGyPxMuhUzzNxa",
+    "voice_settings": {
+      "stability": 0.4,
+      "similarity_boost": 0.85,
+      "style": 0.5,
+      "use_speaker_boost": true
+    },
+    "file": "10-brian.mp3",
+    "duration_s": 2.12,
+    "request_id": "OBaTg9OguJKDTFeoexT9"
+  },
+  "11": {
+    "speaker": "brian",
+    "start_s": 53.4,
+    "on_camera": true,
+    "text": "He held it! How did he hold that?!",
+    "voice_id": "0gY5g5SGyPxMuhUzzNxa",
+    "voice_settings": {
+      "stability": 0.3,
+      "similarity_boost": 0.85,
+      "style": 0.75,
+      "use_speaker_boost": true
+    },
+    "file": "11-brian.mp3",
+    "duration_s": 2.74,
+    "request_id": "22JU4MbG4Sck8a1icOsj"
+  },
+  "12": {
+    "speaker": "brian",
+    "start_s": 57.3,
+    "on_camera": false,
+    "text": "Side by side to the flag!",
+    "voice_id": "0gY5g5SGyPxMuhUzzNxa",
+    "voice_settings": {
+      "stability": 0.3,
+      "similarity_boost": 0.85,
+      "style": 0.75,
+      "use_speaker_boost": true
+    },
+    "file": "12-brian.mp3",
+    "duration_s": 1.85,
+    "request_id": "fjOdZVd999Pc9H8SY3uY"
+  }
+}

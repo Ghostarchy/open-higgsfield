@@ -1,0 +1,66 @@
+{
+  "01": {
+    "speaker": "brian",
+    "start_s": 0.4,
+    "on_camera": false,
+    "text": "Who won? Nobody in this circuit knows who won.",
+    "voice_id": "0gY5g5SGyPxMuhUzzNxa",
+    "voice_settings": {
+      "stability": 0.4,
+      "similarity_boost": 0.85,
+      "style": 0.5,
+      "use_speaker_boost": true
+    },
+    "file": "01-brian.mp3",
+    "duration_s": 3.24,
+    "request_id": "AhV17pqPIx7JyvNFpyeu"
+  },
+  "02": {
+    "speaker": "brian",
+    "start_s": 8.1,
+    "on_camera": true,
+    "text": "Number four. By three thousandths of a second.",
+    "voice_id": "0gY5g5SGyPxMuhUzzNxa",
+    "voice_settings": {
+      "stability": 0.4,
+      "similarity_boost": 0.85,
+      "style": 0.5,
+      "use_speaker_boost": true
+    },
+    "file": "02-brian.mp3",
+    "duration_s": 3.94,
+    "request_id": "QmjwncEn3vXiH72voZjE"
+  },
+  "03": {
+    "speaker": "brian",
+    "start_s": 15.4,
+    "on_camera": false,
+    "text": "Six wins. And he still won't take his helmet off.",
+    "voice_id": "0gY5g5SGyPxMuhUzzNxa",
+    "voice_settings": {
+      "stability": 0.4,
+      "similarity_boost": 0.85,
+      "style": 0.5,
+      "use_speaker_boost": true
+    },
+    "file": "03-brian.mp3",
+    "duration_s": 4.36,
+    "request_id": "hwltIiAifQuZfMS5PdO0"
+  },
+  "06": {
+    "speaker": "brian",
+    "start_s": 43.2,
+    "on_camera": false,
+    "text": "Oh my word...",
+    "voice_id": "0gY5g5SGyPxMuhUzzNxa",
+    "voice_settings": {
+      "stability": 0.4,
+      "similarity_boost": 0.85,
+      "style": 0.5,
+      "use_speaker_boost": true
+    },
+    "file": "06-brian.mp3",
+    "duration_s": 1.49,
+    "request_id": "7CdbPK5nbfh9TuABktKC"
+  }
+}
