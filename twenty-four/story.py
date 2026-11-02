@@ -35,6 +35,15 @@ LOCK = {
                "photographers and TV cameras crowding the front edge"),
     "HARBOUR": ("THE HARBOUR: a rain-soaked industrial dock at night, rusted corrugated warehouses, stacked "
                 "containers, tall cranes against low black clouds, sodium lamps reflecting in puddles, mist"),
+    "ISLA_NIGHT": ("ISLA FERREIRA off duty: a 26-year-old woman, olive skin, intense dark brown eyes, straight "
+                   "black eyebrows, black hair loose and soaked to her shoulders, small gold stud earring, black "
+                   "waterproof jacket over a dark hoodie, black jeans, black boots"),
+    "TEO_NIGHT": ("TEO MARSH off duty: a 38-year-old man, lean face, short dark-blond hair greying at the "
+                  "temples soaked flat by rain, a thin white scar through his left eyebrow, three-day stubble, "
+                  "his LEFT eye clouded milky grey and his right eye pale grey-green, charcoal hooded rain jacket "
+                  "over a grey t-shirt"),
+    "OWNER": ("THE OWNER'S HAND: a man's hand in a dark charcoal suit cuff, a heavy gold signet ring engraved "
+              "with a hawk on the little finger, an expensive steel watch"),
     "CAR4": ("CAR 4, the WRAITH: a matte graphite-black Le Mans-style hypercar prototype, long low body, "
              "enclosed cockpit with a dark tinted canopy, thin white LED light slits, tall rear wing, one thin "
              "silver stripe nose to tail, a large white number 4 on the nose and doors, streaks of dust and tyre "
@@ -283,11 +292,105 @@ CAPTION2 = ("He won by 0.003 seconds. Then he took off his helmet. 🏁 EP02 | T
             "#racing #motorsport #shortdrama #aistory #cinematic")
 PINNED2 = "EP03 tomorrow. Who was in the second car? 👀"
 
+# ---------------------------------------------------------------- Episode 3: "The Car Behind"
+SHOTS3 = {
+    1: (4, ["DECLAN", "HARBOUR"], "From inside Declan's car at night, over DECLAN HOLT's shoulder: rain sheets "
+        "down the driver's window, headlights glare behind, and a figure under a black umbrella walks up to the "
+        "door, face hidden by the umbrella. Emotion: who is it?"),
+    2: (4, ["ISLA_NIGHT", "HARBOUR"], "Outside the car in the rain, low angle: a knuckle raps on the wet window, "
+        "the black umbrella tilts back and reveals ISLA FERREIRA, rain running off its edge, eyes hard. "
+        "Emotion: not who we expected."),
+    3: (4, ["ISLA_NIGHT", "HARBOUR"], "Close-up of ISLA FERREIRA under her umbrella at the open car window, sodium "
+        "light on one side of her face, speaking low and angry, lips moving clearly with her words. Emotion: "
+        "she is done being polite."),
+    4: (4, ["DECLAN"], "Close-up of DECLAN HOLT in the dark car, silent, slowly turning his eyes toward the end of "
+        "the pier beyond the windscreen, rain shadows on his face. Emotion: he gives Teo away without a word."),
+    5: (4, ["HARBOUR"], "Very wide shot down a long concrete pier in heavy rain at night: at the far end a lone "
+        "hooded figure sits on the edge with his legs over the black water, cranes and harbour lights blurred "
+        "in the mist behind. Emotion: a man at the end of everything."),
+    6: (4, ["ISLA_NIGHT", "HARBOUR"], "Tracking shot from behind ISLA FERREIRA walking fast down the wet pier "
+        "under her black umbrella, boots splashing through puddles that reflect the lamps. Emotion: urgency."),
+    7: (4, ["ISLA_NIGHT", "TEO_NIGHT", "HARBOUR"], "Over-the-shoulder from behind TEO MARSH sitting on the pier "
+        "edge, his hooded shoulder blurred in the foreground; ISLA FERREIRA stops a few steps away under her "
+        "umbrella, rain dripping from it, staring down at him. Emotion: the confrontation begins."),
+    8: (4, ["TEO_NIGHT", "HARBOUR"], "Close-up of TEO MARSH in profile, hood down, rain running over his face, "
+        "his clouded left eye toward camera, staring out at the black water; he does not turn around. Emotion: "
+        "he knew she would come."),
+    9: (4, ["ISLA_NIGHT"], "Close-up of ISLA FERREIRA, umbrella lowered, rain on her face, speaking with her voice "
+        "cracking, lips moving clearly with her words, eyes wet. Emotion: betrayal."),
+    10: (4, ["TEO_NIGHT"], "Close-up of TEO MARSH slowly turning to face her, his clouded left eye catching the "
+         "lamp light, speaking quietly, lips moving clearly with his words. Emotion: the truth, finally."),
+    11: (4, ["ISLA_NIGHT", "TEO_NIGHT", "HARBOUR"], "ISLA FERREIRA throws her umbrella aside, drops to her knees "
+         "on the wet concrete and grabs the collar of TEO MARSH's jacket with both fists, pulling his face "
+         "inches from hers, shouting, lips moving clearly with her words, rain pouring on both of them; his mouth "
+         "stays closed. Emotion: three years of anger."),
+    12: (4, ["TEO_NIGHT"], "Tight close-up of TEO MARSH, her fists gripping his collar at the edges of frame, a "
+         "faint broken smile, speaking softly, lips moving clearly with his words. Emotion: a sad joke."),
+    13: (5, ["ISLA_NIGHT", "TEO_NIGHT", "HARBOUR"], "Two-shot in profile, foreheads almost touching, rain dripping "
+         "from their noses and hair, harbour lights in soft bokeh behind them; neither speaks; slowly her grip "
+         "on his collar loosens. Emotion: the anger drains into grief."),
+    14: (5, ["TEO_NIGHT"], "Close-up of TEO MARSH looking straight at her, rain and tears indistinguishable, "
+         "speaking slowly and clearly, lips moving with his words. Emotion: the confession."),
+    15: (4, ["ISLA_NIGHT"], "Extreme close-up of ISLA FERREIRA's eyes as the realization lands, her breath "
+         "catching, tears mixing with rain, lips parted but silent. Emotion: everything she believed was wrong."),
+    16: (5, ["OWNER"], "Desaturated flashback insert in a sterile office: a doctor's pen signs a medical form on a "
+         "glass desk while THE OWNER'S HAND rests beside it, the gold hawk signet ring catching the light, then "
+         "taps the paper twice. Emotion: someone powerful arranged all of this."),
+    17: (5, ["TEO_NIGHT"], "Close-up of TEO MARSH, his hand closing over hers on his collar, speaking with quiet "
+         "intensity, lips moving clearly with his words. Emotion: he protected her."),
+    18: (5, ["ISLA_NIGHT", "TEO_NIGHT", "HARBOUR"], "Medium shot: ISLA FERREIRA lets go and sits back on her heels "
+         "in the rain, staring at TEO MARSH; far behind them down the pier, out of focus, the headlights of a "
+         "black car switch on. Emotion: they are being watched."),
+    19: (7, ["OWNER", "HARBOUR"], "From inside the black car through the rain-streaked windscreen: headlights flood "
+         "the pier and the two small silhouettes at its end; in the foreground THE OWNER'S HAND holds a phone and "
+         "presses call, the gold hawk ring gleaming. Down the pier a phone lights up in Isla's pocket. Emotion: "
+         "he wants her next."),
+}
+
+DIALOGUE3 = [
+    (8.4, "ISLA", "Where is he, Declan?", True),
+    (32.4, "ISLA", "You hid it from everyone. Even from me.", True),
+    (36.4, "TEO", "Especially from you.", True),
+    (40.4, "ISLA", "You beat me half blind!", True),
+    (44.4, "TEO", "With one good eye.", True),
+    (53.4, "TEO", "Three years ago they offered you my seat. With my doctor.", True),
+    (67.4, "TEO", "I kept you out so they couldn't do this to you.", True),
+    (79.6, "OWNER (phone, VO)", "Hello, Isla. Ready to drive for me?", False),
+]
+
+CARD3 = ["THEY DIDN'T WANT HIS SEAT.", "THEY WANTED HER IN IT."]
+
+SOUND3 = [
+    ("0-8", "Heavy rain on the car roof, an engine idling behind; three knuckle raps on glass"),
+    ("8-16", "Rain louder through the open window; Isla close; Declan's silence; a distant ship horn"),
+    ("16-28", "Wind and rain across the open pier; boots in puddles; umbrella drumming; low cello drone enters"),
+    ("28-40", "Waves slapping the pier; voices close and dry over the rain"),
+    ("40-48", "Umbrella clatters away; knees hit wet concrete; fabric pulled; score swells"),
+    ("48-53", "Only rain and breathing; a single piano note"),
+    ("53-62", "Teo's confession over sparse piano; Isla's breath catching"),
+    ("62-67", "Flashback: muffled office hum, pen scratch, two taps on paper"),
+    ("67-77", "Back to the rain; piano and strings resolve; a car engine starts far away"),
+    ("77-84", "Headlights hum; a phone vibrating in a wet pocket; the call connects; the owner's voice, warm and cold"),
+    ("84-90", "Hard cut to black on one low drum hit"),
+]
+
+GRAPHICS3 = [
+    (0.0, 3.0, "KESTREL BAY HARBOUR  ·  02:14"),
+    (8.2, 11.6, "ISLA FERREIRA"),
+    (28.0, 31.0, "TEO MARSH"),
+]
+
+CAPTION3 = ("She found him at the end of the pier. Then he told her why he kept her out of the car. EP03 | "
+            "TWENTY-FOUR #racing #shortdrama #aistory #cinematic")
+PINNED3 = "EP04 tomorrow. Who wears the hawk ring?"
+
 EPISODES = [
     {"num": 1, "title": "The Last Minute", "shots": SHOTS, "dialogue": DIALOGUE, "card": CARD,
      "sound": SOUND, "graphics": GRAPHICS, "caption": CAPTION, "pinned": PINNED},
     {"num": 2, "title": "The Line", "shots": SHOTS2, "dialogue": DIALOGUE2, "card": CARD2,
      "sound": SOUND2, "graphics": GRAPHICS2, "caption": CAPTION2, "pinned": PINNED2},
+    {"num": 3, "title": "The Car Behind", "shots": SHOTS3, "dialogue": DIALOGUE3, "card": CARD3,
+     "sound": SOUND3, "graphics": GRAPHICS3, "caption": CAPTION3, "pinned": PINNED3},
 ]
 
 
@@ -361,7 +464,7 @@ def write_bible():
           "Original endurance-racing drama for TikTok, Reels and Shorts (9:16, 90 s episodes). The visual language "
           "follows the supplied reference frames (ground-level dust shots, pit-wall close-ups, broadcast booth, "
           "mirror reveals, helmet visor close-ups, the podium press scrum, name titles, the hard cut to a dark "
-          "night location); the characters, cars, team, circuit and story are original.", "",
+          "night location, the rain-soaked face-to-face confrontation); the characters, cars, team, circuit and story are original.", "",
           "## Premise", "",
           "Teo Marsh, five-time winner of the Kestrel Bay 24 Hours, leads his final race by seconds with one minute "
           "left. His tyres are gone and his radio has gone silent. Closing in is Isla Ferreira, the reserve driver he "
@@ -377,8 +480,8 @@ def write_bible():
     md += ["## Season arc", "",
            "1. The Last Minute — Teo can't see the line; Isla is alongside.",
            "2. The Line — he wins by 0.003 s, takes off his helmet, and the team's secret surfaces at the harbour.",
-           "3. The Car Behind — who stepped out of the second car, and what they want from Declan.",
-           "4. Hour 18 — the night stint where Teo first saw double, and hid it.",
+           "3. The Car Behind — Isla finds Teo at the end of the pier; why he kept her out of the car; the hawk ring.",
+           "4. The Hawk — who owns the team, and what he offered Isla three years ago.",
            "5. Three Years Ago — the day Teo kept Isla out of the car.",
            "6. The Contract — the clause that made Teo race no matter what.",
            "7. The Doctor — who signed the scan, and who paid them.",
@@ -386,8 +489,9 @@ def write_bible():
            "9. The Stewards — the result is under review.",
            "10. The Seventh — Teo's choice.", "",
            "## Production notes", "",
-           "- References to lock first: Teo (helmet on and off), Isla, Declan, Brian, Mara, Leo, car 4, car 19, the "
-           "trophy, the podium, the harbour.",
+           "- References to lock first: Teo (helmet on, helmet off, off duty), Isla (race suit, off duty), Declan, "
+           "Brian, Mara, Leo, the owner's hand and ring, car 4, car 19, the trophy, the podium, the harbour.",
+           "- Two-person dialogue scenes: one speaker per shot, so Seedance only has one mouth to drive.",
            "- Never put real brands, series, circuits or broadcasters in frame (the reference's podium shows real "
            "championship logos; ours uses a plain laurel and star).",
            "- Lip sync: Seedance 2.0 `image-to-video` with `audio_urls` (tested: 1080p, 24 fps, full motion).",

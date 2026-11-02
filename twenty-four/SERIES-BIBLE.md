@@ -1,6 +1,6 @@
 # TWENTY-FOUR — Series Bible
 
-Original endurance-racing drama for TikTok, Reels and Shorts (9:16, 90 s episodes). The visual language follows the supplied reference frames (ground-level dust shots, pit-wall close-ups, broadcast booth, mirror reveals, helmet visor close-ups, the podium press scrum, name titles, the hard cut to a dark night location); the characters, cars, team, circuit and story are original.
+Original endurance-racing drama for TikTok, Reels and Shorts (9:16, 90 s episodes). The visual language follows the supplied reference frames (ground-level dust shots, pit-wall close-ups, broadcast booth, mirror reveals, helmet visor close-ups, the podium press scrum, name titles, the hard cut to a dark night location, the rain-soaked face-to-face confrontation); the characters, cars, team, circuit and story are original.
 
 ## Premise
 
@@ -33,6 +33,15 @@ Paste these word for word. Every prompt already contains the ones it needs.
 
 **HARBOUR**
 > THE HARBOUR: a rain-soaked industrial dock at night, rusted corrugated warehouses, stacked containers, tall cranes against low black clouds, sodium lamps reflecting in puddles, mist
+
+**ISLA_NIGHT**
+> ISLA FERREIRA off duty: a 26-year-old woman, olive skin, intense dark brown eyes, straight black eyebrows, black hair loose and soaked to her shoulders, small gold stud earring, black waterproof jacket over a dark hoodie, black jeans, black boots
+
+**TEO_NIGHT**
+> TEO MARSH off duty: a 38-year-old man, lean face, short dark-blond hair greying at the temples soaked flat by rain, a thin white scar through his left eyebrow, three-day stubble, his LEFT eye clouded milky grey and his right eye pale grey-green, charcoal hooded rain jacket over a grey t-shirt
+
+**OWNER**
+> THE OWNER'S HAND: a man's hand in a dark charcoal suit cuff, a heavy gold signet ring engraved with a hawk on the little finger, an expensive steel watch
 
 **CAR4**
 > CAR 4, the WRAITH: a matte graphite-black Le Mans-style hypercar prototype, long low body, enclosed cockpit with a dark tinted canopy, thin white LED light slits, tall rear wing, one thin silver stripe nose to tail, a large white number 4 on the nose and doors, streaks of dust and tyre rubber on the bodywork
@@ -481,12 +490,199 @@ Low angle through the rain-streaked windscreen: headlights of a black car slowly
 
 **Pinned comment:** EP03 tomorrow. Who was in the second car? 👀
 
+## Episode 3 — "The Car Behind"
+
+| Time | Shot | Beat |
+|---|---|---|
+| 0–4 s | 1 | From inside Declan's car at night, over DECLAN HOLT's shoulder: rain sheets down the driver's window, headlights glare behind, and a figure under a black umbrella walks up to the door, face hidden by the umbrella |
+| 4–8 s | 2 | Outside the car in the rain, low angle: a knuckle raps on the wet window, the black umbrella tilts back and reveals ISLA FERREIRA, rain running off its edge, eyes hard |
+| 8–12 s | 3 | Close-up of ISLA FERREIRA under her umbrella at the open car window, sodium light on one side of her face, speaking low and angry, lips moving clearly with her words |
+| 12–16 s | 4 | Close-up of DECLAN HOLT in the dark car, silent, slowly turning his eyes toward the end of the pier beyond the windscreen, rain shadows on his face |
+| 16–20 s | 5 | Very wide shot down a long concrete pier in heavy rain at night: at the far end a lone hooded figure sits on the edge with his legs over the black water, cranes and harbour lights blurred in the mist behind |
+| 20–24 s | 6 | Tracking shot from behind ISLA FERREIRA walking fast down the wet pier under her black umbrella, boots splashing through puddles that reflect the lamps |
+| 24–28 s | 7 | Over-the-shoulder from behind TEO MARSH sitting on the pier edge, his hooded shoulder blurred in the foreground; ISLA FERREIRA stops a few steps away under her umbrella, rain dripping from it, staring down at him |
+| 28–32 s | 8 | Close-up of TEO MARSH in profile, hood down, rain running over his face, his clouded left eye toward camera, staring out at the black water; he does not turn around |
+| 32–36 s | 9 | Close-up of ISLA FERREIRA, umbrella lowered, rain on her face, speaking with her voice cracking, lips moving clearly with her words, eyes wet |
+| 36–40 s | 10 | Close-up of TEO MARSH slowly turning to face her, his clouded left eye catching the lamp light, speaking quietly, lips moving clearly with his words |
+| 40–44 s | 11 | ISLA FERREIRA throws her umbrella aside, drops to her knees on the wet concrete and grabs the collar of TEO MARSH's jacket with both fists, pulling his face inches from hers, shouting, lips moving clearly with her words, rain pouring on both of them; his mouth stays closed |
+| 44–48 s | 12 | Tight close-up of TEO MARSH, her fists gripping his collar at the edges of frame, a faint broken smile, speaking softly, lips moving clearly with his words |
+| 48–53 s | 13 | Two-shot in profile, foreheads almost touching, rain dripping from their noses and hair, harbour lights in soft bokeh behind them; neither speaks; slowly her grip on his collar loosens |
+| 53–58 s | 14 | Close-up of TEO MARSH looking straight at her, rain and tears indistinguishable, speaking slowly and clearly, lips moving with his words |
+| 58–62 s | 15 | Extreme close-up of ISLA FERREIRA's eyes as the realization lands, her breath catching, tears mixing with rain, lips parted but silent |
+| 62–67 s | 16 | Desaturated flashback insert in a sterile office: a doctor's pen signs a medical form on a glass desk while THE OWNER'S HAND rests beside it, the gold hawk signet ring catching the light, then taps the paper twice |
+| 67–72 s | 17 | Close-up of TEO MARSH, his hand closing over hers on his collar, speaking with quiet intensity, lips moving clearly with his words |
+| 72–77 s | 18 | Medium shot: ISLA FERREIRA lets go and sits back on her heels in the rain, staring at TEO MARSH; far behind them down the pier, out of focus, the headlights of a black car switch on |
+| 77–84 s | 19 | From inside the black car through the rain-streaked windscreen: headlights flood the pier and the two small silhouettes at its end; in the foreground THE OWNER'S HAND holds a phone and presses call, the gold hawk ring gleaming |
+| 84–90 s | card | Black. THEY DIDN'T WANT HIS SEAT. / THEY WANTED HER IN IT. |
+
+### Dialogue and voiceover
+
+| Time | Who | Line | Lip sync |
+|---|---|---|---|
+| 8.4 s | ISLA | "Where is he, Declan?" | Seedance (on camera) |
+| 32.4 s | ISLA | "You hid it from everyone. Even from me." | Seedance (on camera) |
+| 36.4 s | TEO | "Especially from you." | Seedance (on camera) |
+| 40.4 s | ISLA | "You beat me half blind!" | Seedance (on camera) |
+| 44.4 s | TEO | "With one good eye." | Seedance (on camera) |
+| 53.4 s | TEO | "Three years ago they offered you my seat. With my doctor." | Seedance (on camera) |
+| 67.4 s | TEO | "I kept you out so they couldn't do this to you." | Seedance (on camera) |
+| 79.6 s | OWNER (phone, VO) | "Hello, Isla. Ready to drive for me?" | — |
+
+### Graphics
+
+Subtitles: white italic sans, centred in the lower middle, 1–6 words per card, timed to each line.
+Name titles: large thin white sans at the top left with a thin underline, fading in over 0.3 s:
+
+- 0.0–3.0 s: KESTREL BAY HARBOUR  ·  02:14
+- 8.2–11.6 s: ISLA FERREIRA
+- 28.0–31.0 s: TEO MARSH
+
+### Shot prompts
+
+Kling 3.0 Pro image-to-video, sound off, from a start frame made from the locked references. Shots with an on-camera line (3, 9, 10, 11, 12, 14, 17) render with Seedance 2.0 image-to-video plus the shot-timed dialogue audio so the lips match the voice.
+
+**SHOT 1 — 0–4 s** · 4 s · locks: DECLAN, HARBOUR
+
+```
+From inside Declan's car at night, over DECLAN HOLT's shoulder: rain sheets down the driver's window, headlights glare behind, and a figure under a black umbrella walks up to the door, face hidden by the umbrella. Emotion: who is it? DECLAN HOLT: Teo's race engineer, a heavy-set man in his late 40s, short dark receding hair, five-o'clock shadow, sweat on his forehead and temples, black team softshell jacket with a small silver monogram, black over-ear headset with a boom microphone. THE HARBOUR: a rain-soaked industrial dock at night, rusted corrugated warehouses, stacked containers, tall cranes against low black clouds, sodium lamps reflecting in puddles, mist. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.
+```
+
+**SHOT 2 — 4–8 s** · 4 s · locks: ISLA_NIGHT, HARBOUR
+
+```
+Outside the car in the rain, low angle: a knuckle raps on the wet window, the black umbrella tilts back and reveals ISLA FERREIRA, rain running off its edge, eyes hard. Emotion: not who we expected. ISLA FERREIRA off duty: a 26-year-old woman, olive skin, intense dark brown eyes, straight black eyebrows, black hair loose and soaked to her shoulders, small gold stud earring, black waterproof jacket over a dark hoodie, black jeans, black boots. THE HARBOUR: a rain-soaked industrial dock at night, rusted corrugated warehouses, stacked containers, tall cranes against low black clouds, sodium lamps reflecting in puddles, mist. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.
+```
+
+**SHOT 3 — 8–12 s** · 4 s · locks: ISLA_NIGHT, HARBOUR
+
+```
+Close-up of ISLA FERREIRA under her umbrella at the open car window, sodium light on one side of her face, speaking low and angry, lips moving clearly with her words. Emotion: she is done being polite. ISLA FERREIRA off duty: a 26-year-old woman, olive skin, intense dark brown eyes, straight black eyebrows, black hair loose and soaked to her shoulders, small gold stud earring, black waterproof jacket over a dark hoodie, black jeans, black boots. THE HARBOUR: a rain-soaked industrial dock at night, rusted corrugated warehouses, stacked containers, tall cranes against low black clouds, sodium lamps reflecting in puddles, mist. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.
+```
+
+**SHOT 4 — 12–16 s** · 4 s · locks: DECLAN
+
+```
+Close-up of DECLAN HOLT in the dark car, silent, slowly turning his eyes toward the end of the pier beyond the windscreen, rain shadows on his face. Emotion: he gives Teo away without a word. DECLAN HOLT: Teo's race engineer, a heavy-set man in his late 40s, short dark receding hair, five-o'clock shadow, sweat on his forehead and temples, black team softshell jacket with a small silver monogram, black over-ear headset with a boom microphone. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.
+```
+
+**SHOT 5 — 16–20 s** · 4 s · locks: HARBOUR
+
+```
+Very wide shot down a long concrete pier in heavy rain at night: at the far end a lone hooded figure sits on the edge with his legs over the black water, cranes and harbour lights blurred in the mist behind. Emotion: a man at the end of everything. THE HARBOUR: a rain-soaked industrial dock at night, rusted corrugated warehouses, stacked containers, tall cranes against low black clouds, sodium lamps reflecting in puddles, mist. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.
+```
+
+**SHOT 6 — 20–24 s** · 4 s · locks: ISLA_NIGHT, HARBOUR
+
+```
+Tracking shot from behind ISLA FERREIRA walking fast down the wet pier under her black umbrella, boots splashing through puddles that reflect the lamps. Emotion: urgency. ISLA FERREIRA off duty: a 26-year-old woman, olive skin, intense dark brown eyes, straight black eyebrows, black hair loose and soaked to her shoulders, small gold stud earring, black waterproof jacket over a dark hoodie, black jeans, black boots. THE HARBOUR: a rain-soaked industrial dock at night, rusted corrugated warehouses, stacked containers, tall cranes against low black clouds, sodium lamps reflecting in puddles, mist. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.
+```
+
+**SHOT 7 — 24–28 s** · 4 s · locks: ISLA_NIGHT, TEO_NIGHT, HARBOUR
+
+```
+Over-the-shoulder from behind TEO MARSH sitting on the pier edge, his hooded shoulder blurred in the foreground; ISLA FERREIRA stops a few steps away under her umbrella, rain dripping from it, staring down at him. Emotion: the confrontation begins. ISLA FERREIRA off duty: a 26-year-old woman, olive skin, intense dark brown eyes, straight black eyebrows, black hair loose and soaked to her shoulders, small gold stud earring, black waterproof jacket over a dark hoodie, black jeans, black boots. TEO MARSH off duty: a 38-year-old man, lean face, short dark-blond hair greying at the temples soaked flat by rain, a thin white scar through his left eyebrow, three-day stubble, his LEFT eye clouded milky grey and his right eye pale grey-green, charcoal hooded rain jacket over a grey t-shirt. THE HARBOUR: a rain-soaked industrial dock at night, rusted corrugated warehouses, stacked containers, tall cranes against low black clouds, sodium lamps reflecting in puddles, mist. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.
+```
+
+**SHOT 8 — 28–32 s** · 4 s · locks: TEO_NIGHT, HARBOUR
+
+```
+Close-up of TEO MARSH in profile, hood down, rain running over his face, his clouded left eye toward camera, staring out at the black water; he does not turn around. Emotion: he knew she would come. TEO MARSH off duty: a 38-year-old man, lean face, short dark-blond hair greying at the temples soaked flat by rain, a thin white scar through his left eyebrow, three-day stubble, his LEFT eye clouded milky grey and his right eye pale grey-green, charcoal hooded rain jacket over a grey t-shirt. THE HARBOUR: a rain-soaked industrial dock at night, rusted corrugated warehouses, stacked containers, tall cranes against low black clouds, sodium lamps reflecting in puddles, mist. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.
+```
+
+**SHOT 9 — 32–36 s** · 4 s · locks: ISLA_NIGHT
+
+```
+Close-up of ISLA FERREIRA, umbrella lowered, rain on her face, speaking with her voice cracking, lips moving clearly with her words, eyes wet. Emotion: betrayal. ISLA FERREIRA off duty: a 26-year-old woman, olive skin, intense dark brown eyes, straight black eyebrows, black hair loose and soaked to her shoulders, small gold stud earring, black waterproof jacket over a dark hoodie, black jeans, black boots. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.
+```
+
+**SHOT 10 — 36–40 s** · 4 s · locks: TEO_NIGHT
+
+```
+Close-up of TEO MARSH slowly turning to face her, his clouded left eye catching the lamp light, speaking quietly, lips moving clearly with his words. Emotion: the truth, finally. TEO MARSH off duty: a 38-year-old man, lean face, short dark-blond hair greying at the temples soaked flat by rain, a thin white scar through his left eyebrow, three-day stubble, his LEFT eye clouded milky grey and his right eye pale grey-green, charcoal hooded rain jacket over a grey t-shirt. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.
+```
+
+**SHOT 11 — 40–44 s** · 4 s · locks: ISLA_NIGHT, TEO_NIGHT, HARBOUR
+
+```
+ISLA FERREIRA throws her umbrella aside, drops to her knees on the wet concrete and grabs the collar of TEO MARSH's jacket with both fists, pulling his face inches from hers, shouting, lips moving clearly with her words, rain pouring on both of them; his mouth stays closed. Emotion: three years of anger. ISLA FERREIRA off duty: a 26-year-old woman, olive skin, intense dark brown eyes, straight black eyebrows, black hair loose and soaked to her shoulders, small gold stud earring, black waterproof jacket over a dark hoodie, black jeans, black boots. TEO MARSH off duty: a 38-year-old man, lean face, short dark-blond hair greying at the temples soaked flat by rain, a thin white scar through his left eyebrow, three-day stubble, his LEFT eye clouded milky grey and his right eye pale grey-green, charcoal hooded rain jacket over a grey t-shirt. THE HARBOUR: a rain-soaked industrial dock at night, rusted corrugated warehouses, stacked containers, tall cranes against low black clouds, sodium lamps reflecting in puddles, mist. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.
+```
+
+**SHOT 12 — 44–48 s** · 4 s · locks: TEO_NIGHT
+
+```
+Tight close-up of TEO MARSH, her fists gripping his collar at the edges of frame, a faint broken smile, speaking softly, lips moving clearly with his words. Emotion: a sad joke. TEO MARSH off duty: a 38-year-old man, lean face, short dark-blond hair greying at the temples soaked flat by rain, a thin white scar through his left eyebrow, three-day stubble, his LEFT eye clouded milky grey and his right eye pale grey-green, charcoal hooded rain jacket over a grey t-shirt. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.
+```
+
+**SHOT 13 — 48–53 s** · 5 s · locks: ISLA_NIGHT, TEO_NIGHT, HARBOUR
+
+```
+Two-shot in profile, foreheads almost touching, rain dripping from their noses and hair, harbour lights in soft bokeh behind them; neither speaks; slowly her grip on his collar loosens. Emotion: the anger drains into grief. ISLA FERREIRA off duty: a 26-year-old woman, olive skin, intense dark brown eyes, straight black eyebrows, black hair loose and soaked to her shoulders, small gold stud earring, black waterproof jacket over a dark hoodie, black jeans, black boots. TEO MARSH off duty: a 38-year-old man, lean face, short dark-blond hair greying at the temples soaked flat by rain, a thin white scar through his left eyebrow, three-day stubble, his LEFT eye clouded milky grey and his right eye pale grey-green, charcoal hooded rain jacket over a grey t-shirt. THE HARBOUR: a rain-soaked industrial dock at night, rusted corrugated warehouses, stacked containers, tall cranes against low black clouds, sodium lamps reflecting in puddles, mist. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.
+```
+
+**SHOT 14 — 53–58 s** · 5 s · locks: TEO_NIGHT
+
+```
+Close-up of TEO MARSH looking straight at her, rain and tears indistinguishable, speaking slowly and clearly, lips moving with his words. Emotion: the confession. TEO MARSH off duty: a 38-year-old man, lean face, short dark-blond hair greying at the temples soaked flat by rain, a thin white scar through his left eyebrow, three-day stubble, his LEFT eye clouded milky grey and his right eye pale grey-green, charcoal hooded rain jacket over a grey t-shirt. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.
+```
+
+**SHOT 15 — 58–62 s** · 4 s · locks: ISLA_NIGHT
+
+```
+Extreme close-up of ISLA FERREIRA's eyes as the realization lands, her breath catching, tears mixing with rain, lips parted but silent. Emotion: everything she believed was wrong. ISLA FERREIRA off duty: a 26-year-old woman, olive skin, intense dark brown eyes, straight black eyebrows, black hair loose and soaked to her shoulders, small gold stud earring, black waterproof jacket over a dark hoodie, black jeans, black boots. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.
+```
+
+**SHOT 16 — 62–67 s** · 5 s · locks: OWNER
+
+```
+Desaturated flashback insert in a sterile office: a doctor's pen signs a medical form on a glass desk while THE OWNER'S HAND rests beside it, the gold hawk signet ring catching the light, then taps the paper twice. Emotion: someone powerful arranged all of this. THE OWNER'S HAND: a man's hand in a dark charcoal suit cuff, a heavy gold signet ring engraved with a hawk on the little finger, an expensive steel watch. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.
+```
+
+**SHOT 17 — 67–72 s** · 5 s · locks: TEO_NIGHT
+
+```
+Close-up of TEO MARSH, his hand closing over hers on his collar, speaking with quiet intensity, lips moving clearly with his words. Emotion: he protected her. TEO MARSH off duty: a 38-year-old man, lean face, short dark-blond hair greying at the temples soaked flat by rain, a thin white scar through his left eyebrow, three-day stubble, his LEFT eye clouded milky grey and his right eye pale grey-green, charcoal hooded rain jacket over a grey t-shirt. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.
+```
+
+**SHOT 18 — 72–77 s** · 5 s · locks: ISLA_NIGHT, TEO_NIGHT, HARBOUR
+
+```
+Medium shot: ISLA FERREIRA lets go and sits back on her heels in the rain, staring at TEO MARSH; far behind them down the pier, out of focus, the headlights of a black car switch on. Emotion: they are being watched. ISLA FERREIRA off duty: a 26-year-old woman, olive skin, intense dark brown eyes, straight black eyebrows, black hair loose and soaked to her shoulders, small gold stud earring, black waterproof jacket over a dark hoodie, black jeans, black boots. TEO MARSH off duty: a 38-year-old man, lean face, short dark-blond hair greying at the temples soaked flat by rain, a thin white scar through his left eyebrow, three-day stubble, his LEFT eye clouded milky grey and his right eye pale grey-green, charcoal hooded rain jacket over a grey t-shirt. THE HARBOUR: a rain-soaked industrial dock at night, rusted corrugated warehouses, stacked containers, tall cranes against low black clouds, sodium lamps reflecting in puddles, mist. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.
+```
+
+**SHOT 19 — 77–84 s** · 7 s · locks: OWNER, HARBOUR
+
+```
+From inside the black car through the rain-streaked windscreen: headlights flood the pier and the two small silhouettes at its end; in the foreground THE OWNER'S HAND holds a phone and presses call, the gold hawk ring gleaming. Down the pier a phone lights up in Isla's pocket. Emotion: he wants her next. THE OWNER'S HAND: a man's hand in a dark charcoal suit cuff, a heavy gold signet ring engraved with a hawk on the little finger, an expensive steel watch. THE HARBOUR: a rain-soaked industrial dock at night, rusted corrugated warehouses, stacked containers, tall cranes against low black clouds, sodium lamps reflecting in puddles, mist. Ultra-photorealistic live-action motorsport cinema, shot on ARRI Alexa with anamorphic lenses, Hollywood racing-film production quality, real-world physics, natural motion blur, heat haze over the tarmac, realistic reflections on bodywork, natural facial expressions, realistic skin texture, shallow depth of field, cool desaturated grade with warm highlights, subtle film grain, 9:16 vertical composition. No real-world brand logos, no readable sponsor text.
+```
+
+### Sound and music
+
+| Time (s) | Cue |
+|---|---|
+| 0-8 | Heavy rain on the car roof, an engine idling behind; three knuckle raps on glass |
+| 8-16 | Rain louder through the open window; Isla close; Declan's silence; a distant ship horn |
+| 16-28 | Wind and rain across the open pier; boots in puddles; umbrella drumming; low cello drone enters |
+| 28-40 | Waves slapping the pier; voices close and dry over the rain |
+| 40-48 | Umbrella clatters away; knees hit wet concrete; fabric pulled; score swells |
+| 48-53 | Only rain and breathing; a single piano note |
+| 53-62 | Teo's confession over sparse piano; Isla's breath catching |
+| 62-67 | Flashback: muffled office hum, pen scratch, two taps on paper |
+| 67-77 | Back to the rain; piano and strings resolve; a car engine starts far away |
+| 77-84 | Headlights hum; a phone vibrating in a wet pocket; the call connects; the owner's voice, warm and cold |
+| 84-90 | Hard cut to black on one low drum hit |
+
+### Posting
+
+**Caption:** She found him at the end of the pier. Then he told her why he kept her out of the car. EP03 | TWENTY-FOUR #racing #shortdrama #aistory #cinematic
+
+**Pinned comment:** EP04 tomorrow. Who wears the hawk ring?
+
 ## Season arc
 
 1. The Last Minute — Teo can't see the line; Isla is alongside.
 2. The Line — he wins by 0.003 s, takes off his helmet, and the team's secret surfaces at the harbour.
-3. The Car Behind — who stepped out of the second car, and what they want from Declan.
-4. Hour 18 — the night stint where Teo first saw double, and hid it.
+3. The Car Behind — Isla finds Teo at the end of the pier; why he kept her out of the car; the hawk ring.
+4. The Hawk — who owns the team, and what he offered Isla three years ago.
 5. Three Years Ago — the day Teo kept Isla out of the car.
 6. The Contract — the clause that made Teo race no matter what.
 7. The Doctor — who signed the scan, and who paid them.
@@ -496,7 +692,8 @@ Low angle through the rain-streaked windscreen: headlights of a black car slowly
 
 ## Production notes
 
-- References to lock first: Teo (helmet on and off), Isla, Declan, Brian, Mara, Leo, car 4, car 19, the trophy, the podium, the harbour.
+- References to lock first: Teo (helmet on, helmet off, off duty), Isla (race suit, off duty), Declan, Brian, Mara, Leo, the owner's hand and ring, car 4, car 19, the trophy, the podium, the harbour.
+- Two-person dialogue scenes: one speaker per shot, so Seedance only has one mouth to drive.
 - Never put real brands, series, circuits or broadcasters in frame (the reference's podium shows real championship logos; ours uses a plain laurel and star).
 - Lip sync: Seedance 2.0 `image-to-video` with `audio_urls` (tested: 1080p, 24 fps, full motion).
 - Helmeted or hidden mouths never need lip sync: those lines are voiceover.
