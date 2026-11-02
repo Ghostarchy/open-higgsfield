@@ -12,3 +12,6 @@ tsconfig.tsbuildinfo
 
 .env*
 .idea
+
+# Style-reference screenshots from third-party videos: local only, never published
+twenty-four/reference/
