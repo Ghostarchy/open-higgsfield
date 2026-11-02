@@ -15,3 +15,4 @@ tsconfig.tsbuildinfo
 
 # Style-reference screenshots from third-party videos: local only, never published
 twenty-four/reference/
+__pycache__/
