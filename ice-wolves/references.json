@@ -1,0 +1,58 @@
+{
+  "vorr": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Creature reference, full body, three-quarter view, Vorr, an ancient ice wolf the size of a house, white fur with a frost-crusted mane, one torn ear, glowing amber eyes, lying in snow beside a warrior for scale who reaches only to its shoulder. epic cinematic fantasy, frozen mountain clan, snow falling, pale blue and silver tones with warm torchlight, shallow depth of field, film grain, photorealistic, 9:16 vertical",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19b66-8222-7c46-ad4a-cdb654fbd43a",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b66-8222-7c46-ad4a-cdb654fbd43a/d16ad674-cd4d-4e86-8740-09638b5e804f.png",
+    "file": "vorr.png"
+  },
+  "mira": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Character reference, full body, front view, Mira, a 7-year-old girl with pale silver-blonde braided hair, cloudy pale blue eyes, a small scar on her chin, an oversized grey fur cloak and wrapped leather boots, standing in deep snow in a mountain clan village at dawn, face clearly visible, eyes open and unfocused. epic cinematic fantasy, frozen mountain clan, snow falling, pale blue and silver tones with warm torchlight, shallow depth of field, film grain, photorealistic, 9:16 vertical",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19b66-822e-7e94-aefc-64b2d3df5bb6",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b66-822e-7e94-aefc-64b2d3df5bb6/b320d6a7-d617-468c-9c86-286010731f24.png",
+    "file": "mira.png"
+  },
+  "kaelen": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Character reference, full body, front view, Kaelen, a smug 9-year-old boy with red hair in a fine fur coat with a gold clasp, the chieftain's son, standing in snow, arms crossed, smirking, face clearly visible. epic cinematic fantasy, frozen mountain clan, snow falling, pale blue and silver tones with warm torchlight, shallow depth of field, film grain, photorealistic, 9:16 vertical",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19b66-826a-70ad-ac05-0be8c290f33a",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b66-826a-70ad-ac05-0be8c290f33a/fdf02adb-f5fd-4b2a-9559-d91613f7aa4f.png",
+    "file": "kaelen.png"
+  },
+  "asha": {
+    "model": "higgsfield-ai/soul/cinema",
+    "request": {
+      "prompt": "Character reference, full body, front view, Asha the chieftain, a woman in her 40s with dark braided hair threaded with bone beads, a war paint stripe across her eyes, a heavy fur mantle over steel armor, carrying a spear, standing in a frozen stone arena, face clearly visible, stern. epic cinematic fantasy, frozen mountain clan, snow falling, pale blue and silver tones with warm torchlight, shallow depth of field, film grain, photorealistic, 9:16 vertical",
+      "batch_size": 1,
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "enhance_prompt": false
+    },
+    "request_id": "01a19b66-8271-7e59-b9ea-ce57009295e8",
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b66-8271-7e59-b9ea-ce57009295e8/c1517959-bb12-4277-baea-ab0c7852b66d.png",
+    "file": "asha.png"
+  }
+}

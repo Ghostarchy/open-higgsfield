@@ -1,0 +1,128 @@
+{
+  "wind": {
+    "prompt": "Howling icy mountain wind in a snowstorm, constant and deep, no music",
+    "duration_s": 22,
+    "file": "wind.mp3",
+    "request_id": null
+  },
+  "crowd_murmur": {
+    "prompt": "Large crowd of fur-clad warriors murmuring tensely in a vast stone arena outdoors in wind",
+    "duration_s": 15,
+    "file": "crowd_murmur.mp3",
+    "request_id": null
+  },
+  "wolf_snarl": {
+    "prompt": "Huge monstrous wolf snarling low and menacing, deep throaty growl",
+    "duration_s": 4,
+    "file": "wolf_snarl.mp3",
+    "request_id": null
+  },
+  "child_scream_run": {
+    "prompt": "A small child screams in fear then runs away crying through snow",
+    "duration_s": 4,
+    "file": "child_scream_run.mp3",
+    "request_id": null
+  },
+  "crowd_cheer": {
+    "prompt": "Crowd of warriors cheering and whooping in an outdoor arena",
+    "duration_s": 4,
+    "file": "crowd_cheer.mp3",
+    "request_id": null
+  },
+  "giant_roar": {
+    "prompt": "Enormous ancient wolf roaring, earth-shaking, with a blast of wind and snow",
+    "duration_s": 5,
+    "file": "giant_roar.mp3",
+    "request_id": null
+  },
+  "crowd_gasp": {
+    "prompt": "A large crowd gasps in shock all at once",
+    "duration_s": 3,
+    "file": "crowd_gasp.mp3",
+    "request_id": null
+  },
+  "kids_laugh": {
+    "prompt": "Several young children laughing and jeering mockingly",
+    "duration_s": 4,
+    "file": "kids_laugh.mp3",
+    "request_id": null
+  },
+  "stick_tap": {
+    "prompt": "A small wooden walking stick tapping slowly on packed snow and stone",
+    "duration_s": 5,
+    "file": "stick_tap.mp3",
+    "request_id": null
+  },
+  "footsteps_snow": {
+    "prompt": "Light small footsteps crunching slowly through deep snow",
+    "duration_s": 7,
+    "file": "footsteps_snow.mp3",
+    "request_id": null
+  },
+  "wolf_breath": {
+    "prompt": "Slow, deep, heavy breathing of a giant beast, close up, in total silence",
+    "duration_s": 12,
+    "file": "wolf_breath.mp3",
+    "request_id": null
+  },
+  "spears_raise": {
+    "prompt": "Many warriors raising spears at once, metal and leather rattling",
+    "duration_s": 3,
+    "file": "spears_raise.mp3",
+    "request_id": null
+  },
+  "runes_shimmer": {
+    "prompt": "Magical crystalline ice shimmer, glowing frost spreading, delicate and rising",
+    "duration_s": 6,
+    "file": "runes_shimmer.mp3",
+    "request_id": null
+  },
+  "spear_drop": {
+    "prompt": "A steel spear dropping into snow with a soft metal thud",
+    "duration_s": 2,
+    "file": "spear_drop.mp3",
+    "request_id": null
+  },
+  "clan_kneel": {
+    "prompt": "Hundreds of armored warriors kneeling slowly, fur and steel armor rustling, torches crackling",
+    "duration_s": 6,
+    "file": "clan_kneel.mp3",
+    "request_id": null
+  },
+  "war_horns": {
+    "prompt": "Deep ancient war horns blowing across distant mountains, ominous, echoing",
+    "duration_s": 6,
+    "file": "war_horns.mp3",
+    "request_id": null
+  },
+  "gate_crack": {
+    "prompt": "A massive iron gate wrapped in chains cracking open, chains snapping, deep metal groan",
+    "duration_s": 5,
+    "file": "gate_crack.mp3",
+    "request_id": null
+  },
+  "monster_growls": {
+    "prompt": "Many unseen monsters growling low in a dark cave, menacing chorus",
+    "duration_s": 5,
+    "file": "monster_growls.mp3",
+    "request_id": null
+  },
+  "wolf_growl_turn": {
+    "prompt": "Giant wolf growling protectively, low and rumbling",
+    "duration_s": 4,
+    "file": "wolf_growl_turn.mp3",
+    "request_id": null
+  },
+  "eye_glow": {
+    "prompt": "Rising magical shimmer and whoosh, ice crystals, building to a peak",
+    "duration_s": 4,
+    "file": "eye_glow.mp3",
+    "request_id": null
+  },
+  "drum_hit": {
+    "prompt": "One single huge low cinematic drum hit with a long tail, nothing else",
+    "duration_s": 3,
+    "file": "drum_hit.mp3",
+    "request_id": null
+  }
+}

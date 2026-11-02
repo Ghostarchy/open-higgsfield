@@ -1,0 +1,44 @@
+{
+  "narrator": {
+    "voice_description": "A deep, slow, epic movie-trailer narrator, a man with a resonant low bass voice, gravelly and commanding, measured dramatic pacing, clean studio recording.",
+    "text": "Every child in the clan faced the beast. Every child was rejected. For three hundred years the ancient wolf bowed to no one, and the mountain waited in silence.",
+    "previews": [
+      {
+        "option": 1,
+        "file": "narrator-option1.mp3",
+        "generated_voice_id": "mm22TTL01nDAu406MdPQ"
+      },
+      {
+        "option": 2,
+        "file": "narrator-option2.mp3",
+        "generated_voice_id": "NBY1pZobIkO4C7v6T1OU"
+      },
+      {
+        "option": 3,
+        "file": "narrator-option3.mp3",
+        "generated_voice_id": "1kd7lCNvwHJLgPjpsgtN"
+      }
+    ]
+  },
+  "asha": {
+    "voice_description": "A woman in her forties with a low, husky, commanding voice, a hardened warrior chieftain, urgent and protective, Nordic-inflected English accent, clean studio recording.",
+    "text": "Not you, child. It will tear you apart. Stay behind me. Vorr hasn't bowed in three hundred years, and it will not bow today.",
+    "previews": [
+      {
+        "option": 1,
+        "file": "asha-option1.mp3",
+        "generated_voice_id": "uhXOR94A0cYogkeZJOQ2"
+      },
+      {
+        "option": 2,
+        "file": "asha-option2.mp3",
+        "generated_voice_id": "E1OMjCzrMPBUYkU9FW1T"
+      },
+      {
+        "option": 3,
+        "file": "asha-option3.mp3",
+        "generated_voice_id": "0nH4O4Rik09xtoPVaFTP"
+      }
+    ]
+  }
+}
