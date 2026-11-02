@@ -1,0 +1,48 @@
+{
+  "01": {
+    "speaker": "narrator",
+    "text": "Every child in the clan faced the beast. Every child was rejected.",
+    "voice_id": "1kd7lCNvwHJLgPjpsgtN",
+    "model_id": "eleven_multilingual_v2",
+    "voice_settings": {
+      "stability": 0.55,
+      "similarity_boost": 0.85,
+      "style": 0.4,
+      "use_speaker_boost": true,
+      "speed": 0.92
+    },
+    "file": "01-narrator.mp3",
+    "duration_s": 5.146,
+    "request_id": "Bh9AH4PypavGdwCzLcoG"
+  },
+  "03": {
+    "speaker": "asha",
+    "text": "Not you, child. It will tear you apart.",
+    "voice_id": "E1OMjCzrMPBUYkU9FW1T",
+    "model_id": "eleven_multilingual_v2",
+    "voice_settings": {
+      "stability": 0.45,
+      "similarity_boost": 0.85,
+      "style": 0.5,
+      "use_speaker_boost": true
+    },
+    "file": "03-asha.mp3",
+    "duration_s": 3.474,
+    "request_id": "rZWabG74jcWSqhsTh9yP"
+  },
+  "05": {
+    "speaker": "asha",
+    "text": "Vorr hasn't bowed in three hundred years.",
+    "voice_id": "E1OMjCzrMPBUYkU9FW1T",
+    "model_id": "eleven_multilingual_v2",
+    "voice_settings": {
+      "stability": 0.35,
+      "similarity_boost": 0.8,
+      "style": 0.6,
+      "use_speaker_boost": false
+    },
+    "file": "05-asha.mp3",
+    "duration_s": 2.952,
+    "request_id": "yRxL6tCFCKuPOwh1bhbM"
+  }
+}

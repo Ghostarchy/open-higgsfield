@@ -12,17 +12,17 @@ Style: Card2,Cinzel,92,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.00,0:00:01.70,Caption,,0,0,0,,EVERY CHILD
-Dialogue: 0,0:00:01.70,0:00:03.45,Caption,,0,0,0,,IN THE CLAN FACED THE BEAST.
-Dialogue: 0,0:00:03.45,0:00:05.41,Caption,,0,0,0,,EVERY CHILD WAS REJECTED.
+Dialogue: 0,0:00:01.00,0:00:01.80,Caption,,0,0,0,,EVERY CHILD
+Dialogue: 0,0:00:01.80,0:00:03.82,Caption,,0,0,0,,IN THE CLAN FACED THE BEAST.
+Dialogue: 0,0:00:03.82,0:00:06.04,Caption,,0,0,0,,EVERY CHILD WAS REJECTED.
 Dialogue: 0,0:00:17.00,0:00:17.77,Caption,,0,0,0,,WATCH HOW
 Dialogue: 0,0:00:17.77,0:00:20.40,Caption,,0,0,0,,A CHIEFTAIN'S SON DOES IT.
-Dialogue: 0,0:00:31.00,0:00:32.18,Caption,,0,0,0,,NOT YOU, CHILD.
-Dialogue: 0,0:00:32.18,0:00:34.40,Caption,,0,0,0,,IT WILL TEAR YOU APART.
+Dialogue: 0,0:00:31.00,0:00:32.20,Caption,,0,0,0,,NOT YOU, CHILD.
+Dialogue: 0,0:00:32.20,0:00:34.44,Caption,,0,0,0,,IT WILL TEAR YOU APART.
 Dialogue: 0,0:00:44.00,0:00:45.45,Caption,,0,0,0,,I CAN'T SEE YOU.
 Dialogue: 0,0:00:45.45,0:00:46.27,Caption,,0,0,0,,BUT I CAN
 Dialogue: 0,0:00:46.27,0:00:48.40,Caption,,0,0,0,,HEAR YOU'RE LONELY.
-Dialogue: 0,0:01:03.00,0:01:04.62,Caption,,0,0,0,,VORR HASN'T BOWED
-Dialogue: 0,0:01:04.62,0:01:07.40,Caption,,0,0,0,,IN THREE HUNDRED YEARS...
+Dialogue: 0,0:01:03.00,0:01:04.00,Caption,,0,0,0,,VORR HASN'T BOWED
+Dialogue: 0,0:01:04.00,0:01:05.86,Caption,,0,0,0,,IN THREE HUNDRED YEARS...
 Dialogue: 0,0:01:26.40,0:01:30.00,Card,,0,0,0,,{\fad(500,0)}SHE WASN'T BLIND.
 Dialogue: 0,0:01:27.60,0:01:30.00,Card2,,0,0,0,,{\fad(500,0)}SHE WAS WAITING.

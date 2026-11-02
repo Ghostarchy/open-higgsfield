@@ -45,7 +45,7 @@ dlg = {} if PREVIEW else json.loads((dlg_dir / "manifest.json").read_text())
 lines = []
 for lid, who, start, wend, text in LINES:
     item = {"id": lid, "who": who, "start": start, "dur": wend - start, "text": text, "wav": None}
-    if not PREVIEW:
+    if not PREVIEW and lid in dlg:
         src, dst = dlg_dir / dlg[lid]["file"], dlg_dir / f"{lid}.trim.wav"
         run(["ffmpeg", "-v", "error", "-y", "-i", str(src), "-af",
              "silenceremove=start_periods=1:start_threshold=-45dB,areverse,"
@@ -166,7 +166,7 @@ for stem, start, gain, seek, length, extra in SFX:
     parts.append(chain); labels.append(f"[a{idx}]"); idx += 1
 parts.append("".join(labels) + f"amix=inputs={len(labels)}:normalize=0:duration=longest,"
              f"atrim=0:{TOTAL},apad=whole_dur={TOTAL},loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[mix]")
-mix = final / ("mix-preview.wav" if PREVIEW else "mix.wav")
+mix = final / ("mix-preview.wav" if PREVIEW else "mix-current.wav")
 run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(parts),
      "-map", "[mix]", "-t", str(TOTAL), "-ar", "48000", str(mix)])
 
@@ -183,7 +183,15 @@ GRADE = ("eq=contrast=1.06:saturation=0.9,"
 chain = "".join(f"[v{n}]" for n in range(1, 15))
 vparts.append(f"{chain}concat=n=14:v=1:a=0,{GRADE}[graded]")
 vparts.append(f"[graded][vcard]concat=n=2:v=1:a=0,ass={ass}:fontsdir={fontsdir}[vout]")
-out = final / ("ep01-preview.mp4" if PREVIEW else f"ep{EP_NUM}.mp4")
+# A cut with any line still unvoiced is labelled interim so it is never mistaken for the final.
+missing = [ln["id"] for ln in lines if ln["wav"] is None]
+if PREVIEW:
+    out = final / "ep01-preview.mp4"
+elif missing:
+    out = final / f"ep{EP_NUM}-interim.mp4"
+    print("interim cut, caption-only lines:", ", ".join(missing))
+else:
+    out = final / f"ep{EP_NUM}.mp4"
 run(["ffmpeg", "-v", "error", "-y", *vin, "-i", str(mix), "-filter_complex", ";".join(vparts),
      "-map", "[vout]", "-map", f"{len(DURS)}:a", "-t", str(TOTAL), "-r", "24",
      # 4 Mbps cap keeps a 90 s episode near 45 MB, under GitHub's 50 MB warning.
