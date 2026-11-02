@@ -306,7 +306,9 @@
       "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b67-593d-7ddf-9f26-b23b7293e4fa/a2944f9d-9098-4d86-b667-2cd77dee2865.png"
     },
     "request_id": "01a19b69-7db7-7fdd-a408-01dd4902b704",
-    "status": "queued"
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b69-7db7-7fdd-a408-01dd4902b704/315435a3-3d59-4c3a-9f7d-de091ba57353.mp4",
+    "file": "shot04.mp4"
   },
   "shot03-clip": {
     "model": "kling-video/v3.0/pro/image-to-video",
@@ -319,7 +321,9 @@
       "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b67-5987-71b9-ad2a-de45c7a1e60e/48f3d2f3-0a49-4b2a-9654-b0b98f02e683.png"
     },
     "request_id": "01a19b69-7dc6-73ad-9271-a8f8c9f4c06d",
-    "status": "queued"
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b69-7dc6-73ad-9271-a8f8c9f4c06d/8189927b-de10-4167-9af7-225146697f9a.mp4",
+    "file": "shot03.mp4"
   },
   "shot05-clip": {
     "model": "kling-video/v3.0/pro/image-to-video",
@@ -332,7 +336,9 @@
       "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b67-5991-79e0-ba72-315bcf5b115e/db5dac70-7a14-467e-b63f-e8daa0358b1f.png"
     },
     "request_id": "01a19b69-7dde-774b-8222-f8638d3c914a",
-    "status": "queued"
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b69-7dde-774b-8222-f8638d3c914a/89c68e5d-d2ef-46e5-8f0d-81fe0f8650f6.mp4",
+    "file": "shot05.mp4"
   },
   "shot09-clip": {
     "model": "kling-video/v3.0/pro/image-to-video",
@@ -345,7 +351,9 @@
       "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b67-5957-7796-828d-ee4bad73cb37/4413dd6d-6825-48ab-a5a1-2ef5c1e975b7.png"
     },
     "request_id": "01a19b69-7def-7f18-b51c-ab274c97c630",
-    "status": "queued"
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b69-7def-7f18-b51c-ab274c97c630/7ce12122-11fa-42d4-9d09-ccadc795b60d.mp4",
+    "file": "shot09.mp4"
   },
   "shot06-clip": {
     "model": "kling-video/v3.0/pro/image-to-video",
@@ -358,7 +366,9 @@
       "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b68-30c1-79a8-be8c-a9fe8e5852ac/49ef697f-5d30-480d-b2b8-fbad4cec61eb.png"
     },
     "request_id": "01a19b69-7df1-7a78-8f82-f60cf7130e72",
-    "status": "queued"
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b69-7df1-7a78-8f82-f60cf7130e72/cae65000-0d14-4fe0-91ec-90b83ad2002e.mp4",
+    "file": "shot06.mp4"
   },
   "shot08-clip": {
     "model": "kling-video/v3.0/pro/image-to-video",
@@ -371,7 +381,9 @@
       "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b67-5963-7379-8ad2-225bd9779b75/e7bdc3e3-ea0f-4151-946f-07e6e4461f34.png"
     },
     "request_id": "01a19b69-7e0a-7236-98f2-4563694a56d6",
-    "status": "queued"
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b69-7e0a-7236-98f2-4563694a56d6/e4e8bc15-f4cc-4fa3-a246-8177b02642eb.mp4",
+    "file": "shot08.mp4"
   },
   "shot12-clip": {
     "model": "kling-video/v3.0/pro/image-to-video",
@@ -384,7 +396,9 @@
       "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b67-5991-74c1-a1b3-26466907c355/1004d79c-e27e-4478-be78-a7aab95c1adc.png"
     },
     "request_id": "01a19b69-7e0d-7794-9127-5787bba0f6f6",
-    "status": "queued"
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b69-7e0d-7794-9127-5787bba0f6f6/ca3af073-25a0-41c9-a624-a45f65142615.mp4",
+    "file": "shot12.mp4"
   },
   "shot07-clip": {
     "model": "kling-video/v3.0/pro/image-to-video",
@@ -397,7 +411,9 @@
       "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b68-30e9-7e0b-835d-a9c3f4f8147e/17f777ed-72ba-479e-a78d-2d4fff4c9b38.png"
     },
     "request_id": "01a19b69-7e20-7cbd-8876-b16f324619cc",
-    "status": "queued"
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b69-7e20-7cbd-8876-b16f324619cc/5ccd0303-42b6-442e-97bd-e27970da4bca.mp4",
+    "file": "shot07.mp4"
   },
   "shot11-clip": {
     "model": "kling-video/v3.0/pro/image-to-video",
@@ -410,7 +426,9 @@
       "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b68-3101-7867-a72b-117bb19de997/32dbbaec-183b-4190-be88-a06c16b84339.png"
     },
     "request_id": "01a19b69-7e19-7aa3-a521-00adf959a982",
-    "status": "queued"
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b69-7e19-7aa3-a521-00adf959a982/553c969e-a0de-4d57-80b9-33ac2daa57c4.mp4",
+    "file": "shot11.mp4"
   },
   "shot13-clip": {
     "model": "kling-video/v3.0/pro/image-to-video",
@@ -423,7 +441,9 @@
       "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b67-5967-7364-bd7d-c1e722ad0cc0/e0b8e1fa-6a2f-40dc-b912-3c5258afbc50.png"
     },
     "request_id": "01a19b69-7e31-72ba-8688-4c8400db1e47",
-    "status": "queued"
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b69-7e31-72ba-8688-4c8400db1e47/35d8b52a-3298-4b7e-ba9b-79fd8a1c296d.mp4",
+    "file": "shot13.mp4"
   },
   "shot01-clip": {
     "model": "kling-video/v3.0/pro/image-to-video",
@@ -436,7 +456,9 @@
       "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b67-5980-75f9-bdbe-267a128e1640/0fd26afa-6651-4fc0-8dbb-58cd1ec6c861.png"
     },
     "request_id": "01a19b69-7e3d-7ecb-90c4-18baa95fef14",
-    "status": "queued"
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b69-7e3d-7ecb-90c4-18baa95fef14/a2450f6d-cef9-4a81-9bab-2d1789adfe50.mp4",
+    "file": "shot01.mp4"
   },
   "shot10-clip": {
     "model": "kling-video/v3.0/pro/image-to-video",
@@ -449,7 +471,9 @@
       "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b67-5987-7e07-811a-24ac3559d149/e93f3d42-889e-4ac5-b18c-fe9bc5edfacb.png"
     },
     "request_id": "01a19b69-7e3c-785c-a851-114202305cfc",
-    "status": "queued"
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b69-7e3c-785c-a851-114202305cfc/e0ddaa90-e460-4fa6-abeb-20b23a2d72c3.mp4",
+    "file": "shot10.mp4"
   },
   "shot02-clip": {
     "model": "kling-video/v3.0/pro/image-to-video",
@@ -462,7 +486,9 @@
       "image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b67-596e-74f1-988e-228e59ce75f2/52ccebb5-8091-40e6-af78-93914476b903.png"
     },
     "request_id": "01a19b69-7e8e-7591-a330-8cd881fe2c92",
-    "status": "queued"
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b69-7e8e-7591-a330-8cd881fe2c92/4ff4804b-0823-4e20-9770-df199ccb8490.mp4",
+    "file": "shot02.mp4"
   },
   "shot14-clip": {
     "model": "kling-video/v3.0/pro/image-to-video",
@@ -476,6 +502,8 @@
       "last_image_url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b68-3100-7dd2-9b77-aa387766c249/eb0a99a5-46b7-47e8-8454-cffef352c815.png"
     },
     "request_id": "01a19b69-7f0e-79eb-a7c0-e47ed38cd208",
-    "status": "queued"
+    "status": "completed",
+    "url": "https://d3u0tzju9qaucj.cloudfront.net/d92656cf-4cbf-4fd5-bfb8-0fc61e907cc3/01a19b69-7f0e-79eb-a7c0-e47ed38cd208/e62de283-7add-4a7a-8cb6-cf746c7d5306.mp4",
+    "file": "shot14.mp4"
   }
 }
