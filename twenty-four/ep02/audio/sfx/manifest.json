@@ -1,0 +1,56 @@
+{
+  "slowmo_drone": {
+    "prompt": "Slow-motion race engine roar stretched into a deep underwater drone",
+    "duration_s": 5,
+    "file": "slowmo_drone.mp3",
+    "request_id": null
+  },
+  "victory_crowd": {
+    "prompt": "Racetrack crowd exploding in celebration, champagne pops, horns",
+    "duration_s": 12,
+    "file": "victory_crowd.mp3",
+    "request_id": null
+  },
+  "shutters": {
+    "prompt": "Dozens of press camera shutters and flash guns firing, shouted reporter questions",
+    "duration_s": 8,
+    "file": "shutters.mp3",
+    "request_id": null
+  },
+  "buckle_click": {
+    "prompt": "Helmet chin strap buckle unclipping, close",
+    "duration_s": 2,
+    "file": "buckle_click.mp3",
+    "request_id": null
+  },
+  "gasp": {
+    "prompt": "A crowd falling silent, then one sharp collective gasp",
+    "duration_s": 3,
+    "file": "gasp.mp3",
+    "request_id": null
+  },
+  "rain_harbour": {
+    "prompt": "Heavy rain on corrugated metal roofs at a night harbour, distant ship horn, buzzing lamps",
+    "duration_s": 15,
+    "file": "rain_harbour.mp3",
+    "request_id": null
+  },
+  "rain_car_roof": {
+    "prompt": "Rain drumming on a car roof from inside, paper rustling, phone vibrating once",
+    "duration_s": 12,
+    "file": "rain_car_roof.mp3",
+    "request_id": null
+  },
+  "car_arrival": {
+    "prompt": "Tyres rolling on wet gravel, a car door opening, footsteps in puddles, umbrella opening",
+    "duration_s": 6,
+    "file": "car_arrival.mp3",
+    "request_id": null
+  },
+  "drum_hit": {
+    "prompt": "One single huge low cinematic drum hit with a long tail",
+    "duration_s": 3,
+    "file": "drum_hit.mp3",
+    "request_id": null
+  }
+}

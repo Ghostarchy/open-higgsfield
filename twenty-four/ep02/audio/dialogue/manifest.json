@@ -29,7 +29,14 @@
     },
     "file": "02-brian.mp3",
     "duration_s": 3.94,
-    "request_id": "QmjwncEn3vXiH72voZjE"
+    "request_id": "QmjwncEn3vXiH72voZjE",
+    "lipsync": {
+      "shot": 3,
+      "track": "../shots/shot03.wav",
+      "offset_in_shot_s": 0.1,
+      "line_s": 3.32,
+      "track_s": 4
+    }
   },
   "03": {
     "speaker": "brian",
@@ -94,5 +101,60 @@
     "file": "07-teo.mp3",
     "duration_s": 1.99,
     "request_id": "n5tvVEKHth69LpHJpKCf"
+  },
+  "04": {
+    "speaker": "leo",
+    "start_s": 26.4,
+    "on_camera": true,
+    "text": "Teo! Six wins! Is there a seventh?",
+    "voice_id": "dJF9l0HLXH0NdT2AmN3v",
+    "voice_settings": {
+      "stability": 0.3,
+      "similarity_boost": 0.85,
+      "style": 0.75,
+      "use_speaker_boost": true
+    },
+    "file": "04-leo.mp3",
+    "duration_s": 3.11,
+    "request_id": "Vuktx6rRToIbfWj1aK08",
+    "lipsync": {
+      "shot": 8,
+      "track": "../shots/shot08.wav",
+      "offset_in_shot_s": 0.4,
+      "line_s": 2.32,
+      "track_s": 4
+    }
+  },
+  "08": {
+    "speaker": "owner",
+    "start_s": 72.6,
+    "on_camera": false,
+    "text": "You signed it, Declan. Six months ago.",
+    "voice_id": "6cDLQEBz9dKSvPakiJRc",
+    "voice_settings": {
+      "stability": 0.6,
+      "similarity_boost": 0.85,
+      "style": 0.3,
+      "use_speaker_boost": true
+    },
+    "file": "08-owner.mp3",
+    "duration_s": 3.42,
+    "request_id": "EJr9ADZomhwjccPgtTak"
+  },
+  "09": {
+    "speaker": "owner",
+    "start_s": 79.4,
+    "on_camera": false,
+    "text": "Now get out of the car.",
+    "voice_id": "6cDLQEBz9dKSvPakiJRc",
+    "voice_settings": {
+      "stability": 0.6,
+      "similarity_boost": 0.85,
+      "style": 0.3,
+      "use_speaker_boost": true
+    },
+    "file": "09-owner.mp3",
+    "duration_s": 2.27,
+    "request_id": "Q0D0RACNmdePMfIZvuAh"
   }
 }

@@ -13,5 +13,29 @@
     "voice_id": "nRrBXmtSFSKpEMXs3fMU",
     "from_design_option": 2,
     "generated_voice_id": "nRrBXmtSFSKpEMXs3fMU"
+  },
+  "declan": {
+    "voice_id": "bvzvNQrzuw6aVPp4obrt",
+    "from_design_option": 1,
+    "generated_voice_id": "bvzvNQrzuw6aVPp4obrt",
+    "picked_by": "Claude (user delegated; swap any time)"
+  },
+  "leo": {
+    "voice_id": "dJF9l0HLXH0NdT2AmN3v",
+    "from_design_option": 1,
+    "generated_voice_id": "dJF9l0HLXH0NdT2AmN3v",
+    "picked_by": "Claude (user delegated; swap any time)"
+  },
+  "owner": {
+    "voice_id": "6cDLQEBz9dKSvPakiJRc",
+    "from_design_option": 1,
+    "generated_voice_id": "6cDLQEBz9dKSvPakiJRc",
+    "picked_by": "Claude (user delegated; swap any time)"
+  },
+  "strategist": {
+    "voice_id": "pVy1joH3wL90wZckpuWq",
+    "from_design_option": 1,
+    "generated_voice_id": "pVy1joH3wL90wZckpuWq",
+    "picked_by": "Claude (user delegated; swap any time)"
   }
 }

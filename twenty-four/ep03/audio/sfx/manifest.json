@@ -1,0 +1,56 @@
+{
+  "rain_car_roof": {
+    "prompt": "Heavy rain on a car roof from inside, an engine idling behind",
+    "duration_s": 12,
+    "file": "rain_car_roof.mp3",
+    "request_id": null
+  },
+  "knock_glass": {
+    "prompt": "Three knuckle raps on a wet car window",
+    "duration_s": 2,
+    "file": "knock_glass.mp3",
+    "request_id": null
+  },
+  "pier_rain": {
+    "prompt": "Wind and heavy rain across an open concrete pier at night, waves slapping below",
+    "duration_s": 15,
+    "file": "pier_rain.mp3",
+    "request_id": null
+  },
+  "boots_puddles": {
+    "prompt": "Boots walking fast through puddles on concrete, umbrella drumming in rain",
+    "duration_s": 5,
+    "file": "boots_puddles.mp3",
+    "request_id": null
+  },
+  "umbrella_drop": {
+    "prompt": "An umbrella clattering onto wet concrete, knees hitting the ground, jacket fabric pulled",
+    "duration_s": 3,
+    "file": "umbrella_drop.mp3",
+    "request_id": null
+  },
+  "office_flashback": {
+    "prompt": "Muffled sterile office hum, a pen scratching a signature, two taps on paper",
+    "duration_s": 5,
+    "file": "office_flashback.mp3",
+    "request_id": null
+  },
+  "engine_start_far": {
+    "prompt": "A car engine starting far away in the rain, headlights hum",
+    "duration_s": 4,
+    "file": "engine_start_far.mp3",
+    "request_id": null
+  },
+  "phone_vibrate": {
+    "prompt": "A phone vibrating in a wet jacket pocket, then a call connecting",
+    "duration_s": 4,
+    "file": "phone_vibrate.mp3",
+    "request_id": null
+  },
+  "drum_hit": {
+    "prompt": "One single huge low cinematic drum hit with a long tail",
+    "duration_s": 3,
+    "file": "drum_hit.mp3",
+    "request_id": null
+  }
+}

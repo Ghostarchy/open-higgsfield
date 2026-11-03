@@ -1,0 +1,98 @@
+{
+  "dust_wind": {
+    "prompt": "Low wind roar through a dust storm, grit pattering on a camera lens at ground level",
+    "duration_s": 6,
+    "file": "dust_wind.mp3",
+    "request_id": null
+  },
+  "car_pass_close": {
+    "prompt": "Endurance race prototype screaming past a ground-level camera at 300 km/h, doppler",
+    "duration_s": 4,
+    "file": "car_pass_close.mp3",
+    "request_id": null
+  },
+  "car_pass_over": {
+    "prompt": "Race car passing directly over a camera on the track, huge roar and gravel spray",
+    "duration_s": 3,
+    "file": "car_pass_over.mp3",
+    "request_id": null
+  },
+  "booth_tone": {
+    "prompt": "Commentary booth room tone with a muffled racetrack crowd roar through glass",
+    "duration_s": 6,
+    "file": "booth_tone.mp3",
+    "request_id": null
+  },
+  "crowd_roar": {
+    "prompt": "Huge racetrack grandstand crowd roaring and cheering, air horns, PA echo",
+    "duration_s": 12,
+    "file": "crowd_roar.mp3",
+    "request_id": null
+  },
+  "telemetry_beeps": {
+    "prompt": "Pit-wall telemetry warning beeps and soft electronic alerts",
+    "duration_s": 4,
+    "file": "telemetry_beeps.mp3",
+    "request_id": null
+  },
+  "radio_squelch": {
+    "prompt": "Race team radio push-to-talk squelch click and crackle",
+    "duration_s": 2,
+    "file": "radio_squelch.mp3",
+    "request_id": null
+  },
+  "cockpit_drone": {
+    "prompt": "Inside a race car cockpit: deep engine drone, vibration, helmet breathing",
+    "duration_s": 5,
+    "file": "cockpit_drone.mp3",
+    "request_id": null
+  },
+  "radio_hiss": {
+    "prompt": "Empty radio channel hiss and static, no voice",
+    "duration_s": 4,
+    "file": "radio_hiss.mp3",
+    "request_id": null
+  },
+  "engine_approach": {
+    "prompt": "Race prototype engine note growing louder from behind, approaching fast",
+    "duration_s": 6,
+    "file": "engine_approach.mp3",
+    "request_id": null
+  },
+  "contact_crunch": {
+    "prompt": "Two race cars touching at speed, carbon fibre crunch and scrape, tyre scream",
+    "duration_s": 3,
+    "file": "contact_crunch.mp3",
+    "request_id": null
+  },
+  "spin_slide": {
+    "prompt": "Race car sliding sideways, tyres screaming and smoking, engine bouncing off the limiter",
+    "duration_s": 4,
+    "file": "spin_slide.mp3",
+    "request_id": null
+  },
+  "debris": {
+    "prompt": "Carbon fibre debris clattering across tarmac, two engines roaring back to full revs",
+    "duration_s": 3,
+    "file": "debris.mp3",
+    "request_id": null
+  },
+  "heartbeat": {
+    "prompt": "Slow deep human heartbeat with a high tinnitus ringing tone",
+    "duration_s": 10,
+    "file": "heartbeat.mp3",
+    "request_id": null
+  },
+  "limiter_pair": {
+    "prompt": "Two race engines side by side at full throttle on a straight, crowd behind",
+    "duration_s": 5,
+    "file": "limiter_pair.mp3",
+    "request_id": null
+  },
+  "drum_hit": {
+    "prompt": "One single huge low cinematic drum hit with a long tail",
+    "duration_s": 3,
+    "file": "drum_hit.mp3",
+    "request_id": null
+  }
+}

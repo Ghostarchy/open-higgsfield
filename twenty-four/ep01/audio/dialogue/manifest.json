@@ -45,7 +45,14 @@
     },
     "file": "03-brian.mp3",
     "duration_s": 2.82,
-    "request_id": "03fXpeaB3VbtrK05zU9k"
+    "request_id": "03fXpeaB3VbtrK05zU9k",
+    "lipsync": {
+      "shot": 4,
+      "track": "../shots/shot04.wav",
+      "offset_in_shot_s": 0.4,
+      "line_s": 2.48,
+      "track_s": 4
+    }
   },
   "04": {
     "speaker": "brian",
@@ -125,7 +132,14 @@
     },
     "file": "11-brian.mp3",
     "duration_s": 2.74,
-    "request_id": "22JU4MbG4Sck8a1icOsj"
+    "request_id": "22JU4MbG4Sck8a1icOsj",
+    "lipsync": {
+      "shot": 18,
+      "track": "../shots/shot18.wav",
+      "offset_in_shot_s": 0.4,
+      "line_s": 1.6,
+      "track_s": 4
+    }
   },
   "12": {
     "speaker": "brian",
@@ -158,5 +172,60 @@
     "file": "13-teo.mp3",
     "duration_s": 3.16,
     "request_id": "GsHYWn9ZtES7jXznc3O9"
+  },
+  "05": {
+    "speaker": "declan",
+    "start_s": 25.4,
+    "on_camera": true,
+    "text": "Teo, your rears are gone. Do you copy?",
+    "voice_id": "bvzvNQrzuw6aVPp4obrt",
+    "voice_settings": {
+      "stability": 0.4,
+      "similarity_boost": 0.85,
+      "style": 0.5,
+      "use_speaker_boost": true
+    },
+    "file": "05-declan.mp3",
+    "duration_s": 2.59,
+    "request_id": "aJr9MrH07OiWPChtHGw4",
+    "lipsync": {
+      "shot": 9,
+      "track": "../shots/shot09.wav",
+      "offset_in_shot_s": 0.4,
+      "line_s": 2.29,
+      "track_s": 4
+    }
+  },
+  "06": {
+    "speaker": "declan",
+    "start_s": 29.5,
+    "on_camera": false,
+    "text": "Teo. Do you copy?",
+    "voice_id": "bvzvNQrzuw6aVPp4obrt",
+    "voice_settings": {
+      "stability": 0.4,
+      "similarity_boost": 0.85,
+      "style": 0.5,
+      "use_speaker_boost": true
+    },
+    "file": "06-declan.mp3",
+    "duration_s": 2.32,
+    "request_id": "gQE6biryPauXUzwWcdQ2"
+  },
+  "07": {
+    "speaker": "strategist",
+    "start_s": 35.3,
+    "on_camera": false,
+    "text": "Ferreira is coming. Point four. Point three.",
+    "voice_id": "pVy1joH3wL90wZckpuWq",
+    "voice_settings": {
+      "stability": 0.4,
+      "similarity_boost": 0.85,
+      "style": 0.5,
+      "use_speaker_boost": true
+    },
+    "file": "07-strategist.mp3",
+    "duration_s": 2.74,
+    "request_id": "okY2PzUVjQxGTZGmMtNK"
   }
 }
