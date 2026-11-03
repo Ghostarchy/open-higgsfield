@@ -27,7 +27,8 @@ REFS = {
             f"under her arm. {L['ISLA']}. {STYLE}",
     "isla_night": f"Character reference, waist-up, front view, face clearly visible, holding a black umbrella "
                   f"in the rain at night on a harbour pier. {L['ISLA_NIGHT']}. {STYLE}",
-    "declan": f"Character reference, waist-up, front view, face clearly visible, standing at a pit-wall desk "
+    "declan": f"Character reference, waist-up, front view, face clearly visible, a full head of short dark hair "
+              f"receding at the temples, no beard and no goatee, only five-o'clock stubble, standing at a pit-wall desk "
               f"with monitors. {L['DECLAN']}. {STYLE}",
     "brian": f"Character reference, waist-up, front view, face clearly visible, seated in a TV commentary booth "
              f"overlooking a race track. {L['BRIAN']}. {STYLE}",
@@ -37,9 +38,12 @@ REFS = {
            f"microphone. {L['REPORTER']}. {STYLE}",
     "owner_hand": f"Prop reference, close-up of the hand resting on a glass desk. {L['OWNER']}. {STYLE}",
     "car4": f"Vehicle reference, three-quarter front view, parked on an empty pit straight. {L['CAR4']}. {STYLE}",
-    "car19": f"Vehicle reference, three-quarter front view, parked on an empty pit straight. {L['CAR19']}. {STYLE}",
-    "trophy": "Prop reference, studio close-up of a tall endurance-race trophy made of twisted ribbons of polished "
-              f"silver with gold edges on a black base, no text. {STYLE}",
+    "car19": f"Vehicle reference, three-quarter front view, parked on an empty pit straight, a modern 2026 Le Mans "
+             f"hypercar-class prototype with the same long low proportions, enclosed canopy and tall rear wing as a "
+             f"current endurance prototype, not a GT car. {L['CAR19']}. {STYLE}",
+    "trophy": "Prop reference, studio shot of a tall sculptural endurance-race trophy: three ribbons of polished "
+              "silver twisting around each other like flames rising upward, thin gold edges, on a black base, no "
+              f"text, no columns, no fluting. {STYLE}",
 }
 
 VOICES = {
