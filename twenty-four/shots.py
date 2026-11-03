@@ -132,16 +132,22 @@ def ts(t):
 
 
 def chunks(words):
-    out, cur = [], []
+    # Split at sentence ends only, then into balanced cards of at most 5 words (never a lone word).
+    sentences, cur = [], []
     for w in words:
         cur.append(w)
-        if len(cur) >= 4 or w[-1] in ",.?!":
-            out.append(cur); cur = []
+        if w[-1] in ".?!" or w.endswith("—"):
+            sentences.append(cur); cur = []
     if cur:
-        out.append(cur)
+        sentences.append(cur)
+    out = []
+    for snt in sentences:
+        n = -(-len(snt) // 5)
+        size = -(-len(snt) // n)
+        out += [snt[i:i + size] for i in range(0, len(snt), size)]
     merged = []
     for c in out:
-        if merged and len(c) == 1 and len(merged[-1]) < 5:
+        if merged and (len(c) == 1 or len(merged[-1]) == 1) and len(merged[-1]) + len(c) <= 6:
             merged[-1] += c
         else:
             merged.append(c)
@@ -183,18 +189,18 @@ def assemble(num):
             events.append(("Sub", t, e, " ".join(c)))
             t = e
     for a, b, text in ep["graphics"]:
-        events.append(("Name", a, b, r"{\fad(300,300)}" + text + r"\N{\fs10}" + "‾" * 26))
+        events.append(("Name", a, b, r"{\fad(300,300)\u1}" + text))
     events.append(("Card", end + 0.4, 90.0, r"{\fad(500,0)}" + ep["card"][0]))
     events.append(("Card2", end + 1.6, 90.0, r"{\fad(500,0)}" + ep["card"][1]))
     ass = d / "final" / "subs.ass"
     ass.write_text("\n".join([
-        "[Script Info]", "ScriptType: v4.00+", "PlayResX: 1080", "PlayResY: 1920", "WrapStyle: 0", "",
+        "[Script Info]", "ScriptType: v4.00+", "PlayResX: 1080", "PlayResY: 1920", "WrapStyle: 1", "",
         "[V4+ Styles]",
         "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, "
         "Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, "
         "MarginR, MarginV, Encoding",
         "Style: Sub,Inter,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,-1,0,0,100,100,1,0,1,2,2,2,70,70,700,1",
-        "Style: Name,Inter Thin,78,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,2,0,1,1,1,7,56,56,150,1",
+        "Style: Name,Inter ExtraLight,58,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,2,0,1,1,1,7,56,56,150,1",
         "Style: Card,Inter,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,3,0,1,0,0,5,80,80,1020,1",
         "Style: Card2,Inter,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,3,0,1,0,0,5,80,80,880,1",
         "", "[Events]", "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
